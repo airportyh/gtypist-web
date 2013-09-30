@@ -1,0 +1,162 @@
+2013-06-01  Felix Natter <fnatter@gmx.net>
+
+	* update kt*.typ with new ktouch2typ.pl as reported by
+	  Alexei Matveev <alexei.matveev@gmail.com>
+	  (see ../ChangeLog for script changes)
+
+2013-04-30  Tim Marston <tim@ed.am>
+
+	* c.typ, q.typ, v.typ: corrected various typos, thanks to Chris
+	Jones <cjns1989@gmail.com> for reporting.
+
+2013-03-30  Rob Day <rkd@rkd.me.uk>
+
+	* q.typ: Q1: introduces e,i and not g,h; fix space issue
+
+2011-10-27  Gökçen Eraslan <gokcen@pardus.org.tr>
+
+	* kttr.typ: new turkish lesson converted from ktouch
+
+2011-09-30  Tim Marston <edam@waxworlds.org>
+
+	* c.typ: added Colemak typing lessons.
+
+2011-09-07  Tim Marston <edam@waxworlds.org>
+
+	* esp.typ: fixed some typos ("tr àèìòù áéíóú"), thanks to MAbeeTT
+	  <MAbeeTT@gmail.com> for reporting.
+
+2011-08-14  Felix Natter <fnatter@gmx.net>
+
+	* ktde.typ: remove "Grundstellung" from drill text (from
+	  german.ktouch.xml)
+	* ktde2.typ: remove because it was generated from the same source
+	  source as ttde.typ (tipptrainer 0.6.0), and ttde.typ includes more
+	  explanations => ktde2.typ is not generated from
+	  german3.ktouch.xml!!
+
+2011-08-07  Felix Natter <fnatter@gmx.net>
+
+	* kt*.typ: convert and rename lessons from ktouch 1.6
+	* ttde.typ: converted from tipptrainer 0.6.0
+
+2011-07-03  Felix Natter <fnatter@gmx.net>
+
+	* lessons/cs.typ: convert cs.typ (Czech) from iso8859-2 to utf-8
+	* lessons/esp.typ: convert esp.typ (Spanish) from iso8859-1 to utf-8
+	* lessons/ru.typ: convert ru.typ (Russian) from KOI8-R to utf-8
+
+2011-03-03  Tim Marston <edam@waxworlds.org>
+
+	* t.typ: punctuation error, reported to Debian by Percival Tiglao
+	  <dragontamer5788@yahoo.com>
+
+2010-12-21  Tim Marston <edam@waxworlds.org>
+
+	* lessons/u.typ, lessons/t.typ: fixed minor typos (thanks to Elmar
+	  Zander <elmar@zandere.de> for reporting)
+
+2008-05-12  Paul Goins  <general@vultaire.net>
+
+	* ChangeLog: Minor formatting updates.
+
+2008-05-04  Paul Goins  <general@vultaire.net>
+
+	* esp.typ: A mistake involving a not-yet-introduced key was corrected.
+	  This was submitted by igor@tamarapatino.org, and credited to
+	  Laura Victoria Quishpe <sekhmetnightmare@hotmail.com>.
+
+2004-09-30  Dmitry Rutsky <balto@bk.ru>
+
+	* ru.typ:	minor improvements.
+
+2004-07-31  Dmitry Rutsky <rutsky@school.ioffe.rssi.ru>
+
+	* q.typ:  some missing key fingering directions were added by
+	  Iain Cunningham <iain.cunningham@ntlworld.com>.
+
+2004-05-07  Dmitry Rutsky <rutsky@school.ioffe.rssi.ru>
+
+	* ru.typ: corrected unlearned-key bug in IF_Ib lesson last exercise.
+	  Thanks to Renat Sabitov <srr@stacksoft.ru> who has reported this!
+	  He has also reported some spelling error on 18th February, which I've
+	  fixed but somehow this change was lost.
+
+2003-12-28  Michael Opdenacker <michaelo@gnu.org>
+
+	* r.typ: corrected "may" by "many" on line 1198
+	  (Reported by Sayan <Sebastien.Li-thiao-te@crans.org>)
+
+2003-11-23  Dmitry Rutsky <rutsky@school.ioffe.rssi.ru>
+
+	* kten.typ:  fixed several too long lines.
+
+2003-08-31  Rob Leslie <rob@mars.org>
+
+	* cs.typ, m.typ: Fixed a few small typos.
+
+2003-08-28  Michael Opdenacker <michaelo@gnu.org>
+
+	* d.typ: Fixed 2 small typos, reported by Rob Leslie <rob@mars.org>
+
+2003-04-14  Hynek Hanke	<hanke@volny.cz>
+
+	* cs.typ: Removed unnecessary K: commands.
+
+2003-04-14  Felix Natter <fnatter@gmx.net>
+
+	* v.typ, u.typ, t.typ, s.typ, r.typ, q.typ, n.typ, m.typ, f.typ:
+	remove useless K:12:.*
+
+2003-04-06  Felix Natter <fnatter@gmx.net>
+
+	* esp.typ: use M: everywhere
+	* demo.typ: add a menu
+
+2003-04-05  Felix Natter <fnatter@gmx.net>
+
+	* v.typ, u.typ, t.typ, s.typ, r.typ, q.typ, n.typ, m.typ, f.typ:
+	move to M:
+
+2002-10-22  Michael Opdenacker <michaelo@gnu.org>
+
+	* Minor fixes in esp.typ from Manuel García <caronte@eresmas.net>
+
+2002-08-09  Michael Opdenacker <michaelo@gnu.org>
+
+        * lessons/Makefile.am: replaced $(wildcard *.typ) by real
+          file names (supported by any variant of `make').
+
+2002-04-07  Michael Opdenacker <michaelo@gnu.org>
+
+        * cz.typ: includes a new Czech lesson
+	from Hynek Hanke <hanke@volny.cz>.
+	* Makefile.am: pkgdata_DATA = $(wildcard *.typ)
+	This is simpler and doesn't have to change with new lessons.
+
+2001-12-02  Michael Opdenacker <michaelo@gnu.org>
+
+	* esp.typ: added missing `K' on line 109,
+	as suggested by José Pelegrín <josepl@acm.org>.
+
+2001-12-01  Felix Natter  <fnatter@gmx.net>
+
+	* d.typ, r.typ, v.typ, esp.typ: remove more occurrences of "Q:
+	Press Y to continue, ..."  following an exercise (because this is
+	builtin since 2.4)
+	* d.typ, v.typ, r.typ: remove all occurrences of "Q: Press Y to
+	cont..." following T: : It doesn't make sense to repeat a T:, the
+	standard message "Press Enter to continue." is better
+	(the exception is esp.typ, where this is used to navigate through
+	multipage T:'s)
+	* d.typ: There was this I: command: "I:Juvenile zest for excitement
+	whetted interest in parking by the quay." and a D: command was missing
+	in the paragraph). changed this to D:.
+	* esp.typ: fix a typo (reported by José Pelegrín <josepl@acm.org>)
+
+2001-09-02  Felix Natter  <fnatter@gmx.net>
+
+	* ?.typ: adapt lessons to new 2.4 syntax
+	* demo.typ: rewrite for 2.4
+	* gtypist.typ: now generated in autogen.sh
+
