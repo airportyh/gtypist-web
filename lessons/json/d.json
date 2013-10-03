@@ -1,0 +1,877 @@
+{
+  "title": "Dvorak touch",
+  "pages": [
+    {
+      "type": "text",
+      "text": "\t\t\tWelcome to the Dvorak Course\nThis course has been planned for beginners as well as experienced typists.\nIf you are a beginner learning to type on the Dvorak keyboard (the American\nSimplified Keyboard), you will find this keyboard easier to learn than the\nQWERTY (Sholes) keyboard.\nThis is because the Dvorak keyboard has been scientifically designed to minimize\ncumulative finger motion while typing English.  The ten letters on the home row\n(A, O, E, U, I, D, H, T, N, and S) make up about 70% of all keystrokes. These\nten letters alone can form over 3000 words.  Needless to say, having these keys\nin the home row facilitates both speed and accuracy.\nIf you are already an experienced typist on the Sholes keyboard, don't despair:\nyou won't have to unlearn everything you know.  Your basic typing dexterity\nremains with you, regardless of the keyboard layout.  Learning the Dvorak\nkeyboard is like learning to \"play on a new surface\", as a tennis player must\nlearn to adjust to grass court or hard court when she has been accustomed to\nplaying on a clay court."
+    },
+    {
+      "type": "text",
+      "text": "\t\t\tGeneral Instructions\nThe fingers of the left hand should be placed over the A-key, the O-key,\nthe E-key, and the U-key.  Similarly, the fingers of the right hand should be\nplaced over the H-key, the T-key, the N-key, and the S-key."
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1) Home Row Exercises",
+      "lines": [
+        "aoeu ueoa aoeui snth htns snthd uihd uihd",
+        "asonetuhid asonetuhid dihutenosa dihutenosa"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "a s o n e t u h i d  a s o n e t u h i d"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "d i h u t e n o s a  d i h u t e n o s a"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "as an at ah ad aa ao ae au ai os on ot oh od oi ou oe oo oa",
+        "es en et eh ed ea eo ee eu ei us un ut uh ud ui uu ue uo ua"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(5)",
+      "lines": [
+        "his hat is an aid in the hot sun",
+        "in his sad sod hut he sat on his hen"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(6)",
+      "lines": [
+        "sue did not use his hoe and tin hat",
+        "dan did not see the dot on his tie as he hid his tan hat"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(7)",
+      "lines": [
+        "ada add ado aha aid ann dad dan dee den did die din don dot dud",
+        "due dun duo eda end had has hat hen hid his hit hod hoe hot hue",
+        "hut ian ida inn ion its nat ned net nod not nun nut odd ode out",
+        "sat sit sod son sot sun tan tat tee ten tho tit toe ton too tot"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(8)",
+      "lines": [
+        "i do as i do and the end is not as sad as the one sid had"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "                    Learning the Shift Key\nTo integrate the shift key rhythmically in your practice, a capital letter\nshould take three beats: 1--press the shift key opposite the hand to press\nthe letter; 2--press the letter; 3--release the shift key."
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1) Review",
+      "lines": [
+        "een ent est ett hin hou ith ion oth sen tha thi tio tte thu"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "Ada An Ana Ann Dad Dan Dee Ed Eta",
+        "Dan Nan Nat Ned Sid Sue Tad Ted Tod"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "The sad tots sat on a tan seat in his neat tent and ate ten nuts",
+        "On his date Otis had a thin suit and no tint on his shoes"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "Enos eats a thin hash diet in a hued dish as he sits on an odd seat",
+        "Dad does not eat suet   He had seen Sue dent his auto"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(5)",
+      "lines": [
+        "ad an de di ed en es ie in ne un ate dis ess eat ied ine",
+        "ist ite nee nes non nus ses tes tis usi ante anti ates",
+        "eous eats ines ions ious ists itas itis ness sion tion"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(6)",
+      "lines": [
+        "Adna Anna Anne Dana Dead Edie Edna Enid Etta Heda",
+        "Nate Nina Neta Nona Odie Ohio Otto Stan Tess Thad Theo"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(7)",
+      "lines": [
+        "adds aids ante ants aunt dead deed dens died dies dine dins dodo",
+        "heed hens hied hind hint hiss hist hits hods hoed hoes hone hood",
+        "none noon noun nuns oats odds odes ones sane sash sate seas seed",
+        "sees sent sets shad shed shin shot side sine sins sons sued suns",
+        "tide tine tins toad tone toss tote tout tune undo unit used uses"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "                    Home Row and the Period\nThe period is above the E-finger.  Note that the end of a sentence is\nalways followed by two spaces; in abbreviations, it is followed by one\nspace."
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1)",
+      "lines": [
+        "e.  e.  e.  e.  a.  s.  o.  n.  e.  t.  u.  h.  i.  d.  a.  a.",
+        "h.  u.  a.  i.  o.  n.  s.  d.  t.  e.  h.  o.  u.  i.  s.  a."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "anno athe atio atte ause diti enon esen enti este",
+        "ethe esti ette hese hous hout iate iend ines inst",
+        "ith itio into ndin ness nnot noth ntio onth osed",
+        "thei thes tion tten nest nude unti usin tand tate"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "Adana Andie Annie Aonia Audie Denis Diana Dinah",
+        "Donna Duane Edith Ethan India Susan Susie Thane",
+        "Adana.  Andie.  Annie.  Aonia.  Audie.  Denis.  Diana.  Dinah."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "In the house Adana dined in haste on toast and dates.",
+        "Sated as she had eaten she noted the sheen on the dunes",
+        "and the shade in the sheds.  She hates to see an idiot",
+        "stand and shoot his tenth doe in the dense heath."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(5)",
+      "lines": [
+        "An onion heats and stuns stout noses and sends hands",
+        "to douse teeth and hoist suede hoods onto heads."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(6)",
+      "lines": [
+        "eates eousness eousnesses esses iates iests iness inesses",
+        "iousness iousnesses iohness iohnesses itions nesses ousness"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "                    Upper Row and Essential Punctuation"
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1)",
+      "lines": [
+        "tctc upup hghg o,o, nrnr a/a/ slsl a?a? s-s- s--- s---- ----",
+        "tctc upup hghg, hfhf uyuy, nrnr, slsl, s---, s-s-, a/a/-"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "tctc/ upup/ hghg/ uyuy/ hfhf/ nrnr/ slsl/ tctc/ hfhf/ hghg/",
+        "tctc? upup? hghg? uyuy? nrnr? slsl? hfhf? upup- hghg- tctc-"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "Al el if of or up Al el if of or up",
+        "go la lo pa pi ye go la lo pa pi ye"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "Can pa go aft and lie on our old cot?",
+        "The shy ape put on a red hat and ran off the lot.",
+        "For a top fee, her act is to hop in, lie on the rug, pat her",
+        "pet cat, fit a fur on her ear, get her fan, and run off."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(5)",
+      "lines": [
+        "ago ail ale all apt arc are art cur cut dig dip dop",
+        "dry dug eel egg ego fag fig fin fir fly fog for fro",
+        "fry gag gap gas gay gin gip God goo gun hag hay hep"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1) Review",
+      "lines": [
+        "The left road can lead the lads and lady to good lots near",
+        "your land.  The sale of pure gold is held at your door."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "You held no fear of loss for a year.  On each trip to your",
+        "shop he paid in cash for the caps, fish, cups, pans, fuel,",
+        "logs, peas, ales, rice and fats you sold."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "It is a fact that a slap on the face can hurt.  The poor",
+        "apes feel free to find a sure sort of life in the dale."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "aces acts ages ails airs also arcs call caps card cold cops",
+        "else errs eyes face fair fall fare fate feat feel feet fell",
+        "gate gets gift gigs glad goat goes gone gosh gray grey gull",
+        "hole hope hops huff hull ills ires last late lest lets lies"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(5)",
+      "lines": [
+        "pear pert pest pets pits plop pops post pots puns puts rate real",
+        "ride rids ripe rips rope rote rues ruff runs runt rush rust ruts",
+        "span spat spin spit spot spun step stop tags tall tape taps tars",
+        "ugly upon ruge user yard year yeas yell yelp yips yoga yule your"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "\t\tLearning the Lower Row"
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1)",
+      "lines": [
+        "a'sz oqnv ukhm uxhb a\"o- oqnv ejtw a'sz uxhb ukkk ukhm a's-"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "uk sz-a' tw nv ej hm uk a\" hb oq uk a' nv hm a\" oq sz tw ej"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "ale any are ary augh aught ave ay aye ec ece eco el er ere ery ex",
+        "exa exe far fer fir for ify igh ight il ile ill ily ire aze ize",
+        "la lly ly my ny ome or ore ough ought ould our re rec sive tive"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "I owe him a bun, a ham, ink, a bed and a job.",
+        "Sam was mad at his own new ox in the bin.",
+        "At the zoo, the wee, bad boa in a box bit Tom, Bob and me."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(5)",
+      "lines": [
+        "am ax be ma me ox oz we adz awe ban but eke eve haw hem",
+        "hub jab jam jaw jet jib job Joe jot jut kid kin kit man",
+        "mat Max nab new nub now own quo saw sox sum van vex vie",
+        "vow wan who win won yen you zax"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1)",
+      "lines": [
+        "In a daze the band hums the same new tune as they zoom down the exit."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "Next time, I must have a town home, with a book and a vast tome,",
+        "bees, oxen, hams in the oven, rows of beans, the wind and a view."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "I know six men wait to put down their axes.  They want to quit",
+        "their jobs when the job zone size is too wide."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "ahem aims ajax akin asks atom axis bans bath beak beck been",
+        "hoax husk inks item jabs jade jamb Java jazz Jean jest jinx",
+        "knot Knox made maid mail mate mean meet mend mess mind mine"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(5)",
+      "lines": [
+        "miss mist most musk must nabs news next nibs numb owed owes",
+        "quiz save saws seem sews skat skew skid skin some sums take",
+        "vend vent vest veto vise void vote wand weed week wend wins",
+        "whet whit whiz whom wish wont zebu zest zinc Zion zone zulu"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1)",
+      "lines": [
+        "He asked about those zebra waits in his beans."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "It seems that in a month taxes on homes have taken all we saved."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "John Smith makes a quiet visit to the bases in the winds and",
+        "weeds on the mound."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "ovals ovoid oxide quake queen quest quite quits quote saves seams",
+        "skein skink skunk sweat takes taken taxed teams teems thank think",
+        "thumb times towns ukase vaunt vests vises visit vista vivid vixen",
+        "waits wands wants wends whine white whose zebus zoned zones zulus"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1)",
+      "lines": [
+        "hghm hbfb upxp uxyx twcw ej.j nvrv oq,q szlz a'?' a\"/\""
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "Again...",
+      "lines": [
+        "hghm hbfb upxp uxyx twcw ej.j nvrv oq,q szlz a'?' a\"/\""
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "gm mg fb bf pk kp yx xy cw wc .j j. rv vr ,q q, lz zl"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "My big boy may buy a gem at the labs by the bay."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "Mort awes boys with the way he can ward off a blow, kill",
+        "elks and game, row a yawl, or ram awls into bars."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(5)",
+      "lines": [
+        "ah Al am an as at ax ba be do ed eh el go",
+        "ha he hi ho if in is it Jo la no ma me no",
+        "of oh on or ox pa pi Si so to up us we ye"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1)",
+      "lines": [
+        "In barns on farms chicks, boars, veals, bucks and stock might",
+        "enjoy and value an extra quart of water daily."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "Do zebras roam the miles of bleak velds which cover parts of the",
+        "world while packs of brown bears and wart hogs prowl in the woods?"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "Some folks claim to favor poems and rhyme, others can wring equal",
+        "cheer and worth from words and quest and seize all books.  Still",
+        "others amply quell their needs with vocal music and seek all",
+        "works on voice."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "To begin to use wrong verbs among boors and bores may be",
+        "a severe error even if the whole group seems to think",
+        "that exact terms mean less than is normal for them."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(5)",
+      "lines": [
+        "allow among avail awful Aztec azure backs balls began being belie",
+        "bells bills black blank bored borne bring can't chalk champ charm",
+        "check cheek chick chink comes Czech every evict exalt excel exert",
+        "exile expel exult Felix folks gable gauze gives glaze gleam globe"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(6)",
+      "lines": [
+        "verge verse verve vetch vigil vigor viola virus vital vogue voile",
+        "vouch vowel vying walks walls wards warts whack whale wharf wheat",
+        "wheel whelp where which whiff while whirl whole wired wires words",
+        "world worth would write wrong wrote yards yokes yoks zippy zombie"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1)",
+      "lines": [
+        "For a meal we lack a room, milk in mugs, warm pork, veal",
+        "in the oven and cake."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "Mike and Milt were grim, not calm, when Mort came to warn them that",
+        "the well worn ramp over to the mill was too wet for our mile walk."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "Walt may quip and quote with zeal about too much work, but I",
+        "saw him melt and mourn about his love for his lost wife."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "The pick of wool from rams can make very soft warm garb."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(5)",
+      "lines": [
+        "For his meal the busy bird will use his bill or beak in many",
+        "ways to peck at or ably to pick up a worm."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(6)",
+      "lines": [
+        "Owls on the wing may move away with limp easy grace or they",
+        "may sit on a wire and look ever so wise."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(7)",
+      "lines": [
+        "The word or term--prop, mall, king, mark, romp, lock or link--",
+        "can vary in what it may mean."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(8)",
+      "lines": [
+        "helm herb hock holy jeep jeer jell jerk John jolt jump jury",
+        "kale keel kelp kilt lack laws leak leek levy lick like lime",
+        "limp link live love luck lump lynx mail many mill more much",
+        "okra oval pack peak peck peek phew puck ramp rime skip talk"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(9)",
+      "lines": [
+        "puck ramp rime skip talk vail vale vary veal veer veld verb vial vice",
+        "volk walk ware warm warp wars wart ways weal wear well will tilt wire",
+        "whey whim whip whir wore work worm worn yawn yolk zany zero zinc zing"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1)",
+      "lines": [
+        "In barns on farms chicks, bears, veals, bucks and stock might",
+        "enjoy and value an extra quart of water daily."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "Quick quips, awful quotes and queer talks never quite solve",
+        "the wants of a very small child."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "Do zebras roam the miles of bleak velds which cover parts of the",
+        "world while packs of brown bears and wart hogs prowl in the woods?"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "Some folks claim to favor poems and rhyme, others can wring equal",
+        "cheer and worth from words and quest and seize all books.  Still",
+        "others amply quell their needs with vocal music and seek all",
+        "works on voice."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(5)",
+      "lines": [
+        "The queen was given a query for which an ample reply would",
+        "take a quire of paper."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(6)",
+      "lines": [
+        "Six husky cooks boiled clam broth, shrimp and prawns and broiled",
+        "liver for seven lucky elves, then made their hasty exits."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(7)",
+      "lines": [
+        "At the games, Mark was so very badly hurt with many broken bones,",
+        "lumps on his jaws, and some glands burst.  Blood oozed from a crack",
+        "in his wart where it had oozed for weeks.  He was lucky to have lived."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(8)",
+      "lines": [
+        "To check pomp and pride, sever from all overt vices, belay all",
+        "forms of muck raking, and limit all hazards, will bring prime joy."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(9)",
+      "lines": [
+        "To begin to use wrong verbs among boors and bores may be",
+        "a severe error even if the whole group seems to think",
+        "that exact terms mean less than is normal for them."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(10)",
+      "lines": [
+        "allow among avail awful Aztec azure backs balls began being belie",
+        "bells bills black blank bored borne bring can't chalk champ charm",
+        "check cheek chick chink comes Czech every evict exalt excel exert",
+        "exile expel exult Felix folks gable gauze gives glaze gleam globe"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(11)",
+      "lines": [
+        "grams grave graze havoc hazel helix hobby jazzy jelly jerky jewel",
+        "joker jolly jolts jowls judge junco kapok kayak keels keeps kitty",
+        "knack kneel knelt knock knurl kopek kraal Krupp leave liver money",
+        "never Ozark pawns peaks pecks peeks phlox pirks power proms prove"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(12)",
+      "lines": [
+        "quack quaff quail qualm quays quell quill quilt ramps romps rooms",
+        "rumps salve serve shack shark shawl shirk shock shrew shuck sieve",
+        "seize skiff skill skimp skirt skulk small spank speak spoke stick",
+        "stuck threw throw thyme vague valid value valve vapid vault venal"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(13)",
+      "lines": [
+        "verge verse verve vetch vigil vigor viola virus vital vogue voile",
+        "vouch vowel vying walks walls wards warts whack whale wharf wheat",
+        "wheel whelp where which whiff while whirl whole wired wires words",
+        "world worth would write wrong wrote yards yokes yolks zippy zombi"
+      ]
+    },
+    {
+      "type": "text",
+      "text": "\n\nThe following 135 words are so frequently used that they comprise 50%\nof all words normally typed.  If you can type the next two exercises without\nerrors, half of your typed words will be correct!"
+    },
+    {
+      "type": "text",
+      "text": "We now concentrate on home row words."
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1)",
+      "lines": [
+        "The duteous dietitian hesitated at the intense nauseousness inside",
+        "the dishonest institution."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "In addition, the unastute assassin had another unsound idea.  He",
+        "intended to assassinate the dishonest attendant at the institute."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "The unintentioned noisiness and untidiness in the hostess house",
+        "astonished, astounded and nauseated Antonietta.  Undaunted and",
+        "unassisted, she did not hesitate to initiate a statute at the state",
+        "house.  The statute stated that no attendant in an untenanted haunted",
+        "hostess house is to attain hostess status."
+      ]
+    },
+    {
+      "type": "text",
+      "text": "\n\nIn this lesson we practice alphabetic sentences."
+    },
+    {
+      "type": "exercise",
+      "prompt": "(1)",
+      "lines": [
+        "Sixty-five quizzical sheep kept their jaws dry in a farm bungalow."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(2)",
+      "lines": [
+        "Balky Zulus find they can hoax weary men with quavery jumping."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(3)",
+      "lines": [
+        "Jerome quickly began to be vexed by the powerful blizzards."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(4)",
+      "lines": [
+        "Squawking gorillas could vex the brazen nymphs in a jiffy."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(5)",
+      "lines": [
+        "Can Jerry's equipment file saws, ax, hoe, knives and grind adz?"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(6)",
+      "lines": [
+        "Ben works at squeezing very juicy plums with flexed thumbs."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(7)",
+      "lines": [
+        "The black wizard quipping jovially flexed his muscles."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(8)",
+      "lines": [
+        "Will you pack my jugs of liquid veneer in five dozen boxes?"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(9)",
+      "lines": [
+        "Could the wizard jinx quivering folks by magic yelps?"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(10)",
+      "lines": [
+        "Brazen gazelles quickly examined the forward jeep."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(11)",
+      "lines": [
+        "The brown dog quickly jumped over the lazy fox."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(12)",
+      "lines": [
+        "Will the kind judge squelch the five or six brazen nymphs?"
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(13)",
+      "lines": [
+        "Mix zippy Kadota figs with quivering cranberry jelly."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(14)",
+      "lines": [
+        "The wives quickly jerked extra big pizzas from the stand."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(15)",
+      "lines": [
+        "Lisa quickly mixed the very big jar of new soap."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(16)",
+      "lines": [
+        "The major will fix a quiet cozy nook for the vexed, bad Gypsy."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(17)",
+      "lines": [
+        "Pairs of lazy knowing oxen came by quietly evading the jam."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(18)",
+      "lines": [
+        "Juvenile zest for excitement whetted interest in parking by the quay."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(19)",
+      "lines": [
+        "Put your big ax, shovel and quartz where Mike's fence joins ours."
+      ]
+    },
+    {
+      "type": "exercise",
+      "prompt": "(20)",
+      "lines": [
+        "The brawny jaguar held fast till the quaking Zouave victim expired."
+      ]
+    }
+  ]
+}

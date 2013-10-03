@@ -1,0 +1,52 @@
+[
+  {
+    "title": "Quick QWERTY",
+    "url": "lessons/json/q.json",
+    "name": "q"
+  },
+  {
+    "title": "Long QWERTY",
+    "url": "lessons/json/r.json",
+    "name": "r"
+  },
+  {
+    "title": "QWERTY touch",
+    "url": "lessons/json/t.json",
+    "name": "t"
+  },
+  {
+    "title": "Yet more",
+    "url": "lessons/json/v.json",
+    "name": "v"
+  },
+  {
+    "title": "OWERTY",
+    "url": "lessons/json/u.json",
+    "name": "u"
+  },
+  {
+    "title": "Dvorak touch",
+    "url": "lessons/json/d.json",
+    "name": "d"
+  },
+  {
+    "title": "Colemak touch",
+    "url": "lessons/json/c.json",
+    "name": "c"
+  },
+  {
+    "title": "Typing drills",
+    "url": "lessons/json/m.json",
+    "name": "m"
+  },
+  {
+    "title": "Speed drills",
+    "url": "lessons/json/s.json",
+    "name": "s"
+  },
+  {
+    "title": "Calculator keypad",
+    "url": "lessons/json/n.json",
+    "name": "n"
+  }
+]

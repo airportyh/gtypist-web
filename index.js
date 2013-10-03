@@ -1,61 +1,85 @@
 var h = require('hyperscript')
 var E = require('emmitt')
-var PageView = require('./page_view')
+var LessonView = require('./lesson_view')
+var ajax = require('./ajax')
 
-function UI(lesson){
-  var prompt
-  var exerciseView
-  var element = h('div')
-
-  var exerciseIdx = 0
-  displayExercise()
-
-  function currentExercise(){
-    return lesson[exerciseIdx]
-  }
-
-  function onAdvance(){
-    next()
-  }
-
-  function displayExercise(){
-    var exe = currentExercise()
-    exerciseView = PageView(exe)
-    element.appendChild(exerciseView.element)
-    focus()
-    E.on(exerciseView, 'advance', onAdvance)
-  }
-
-  function destroyExercise(){
-    E.off(exerciseView, 'advance', onAdvance)
-    exerciseView.destroy()
-    element.removeChild(exerciseView.element)
-  }
-
-  function next(){
-    exerciseIdx++
-    destroyExercise()
-    displayExercise()
-  }
-
-  function focus(){
-    if (exerciseView.focus) exerciseView.focus()
-  }
-
-  function destroy(){
-    destroyExercise()
-  }
-
-  return {
-    element: element,
-    focus: focus,
-    destroy: destroy
-  }
+window.onload = main
+function main(){
+  var ui = GTypistWeb()
+  document.body.appendChild(ui.element)
 }
 
+function GTypistWeb(){
+
+  var element = h('gtypist')
+  var currentView
+  var view = { element: element }
+
+  function goto(url){
+    ajax(url, function(obj){
+      if (currentView){
+        E.off(currentView, 'goto', goto)
+        currentView.destroy()
+        element.innerHTML = ''
+      }
+      
+      if (isIndex(obj)){
+        currentView = MainMenu(obj) 
+      }else{
+        currentView = LessonView(obj)
+      }
+      E.on(currentView, 'goto', goto)
+
+      element.appendChild(currentView.element)
+    })
+  }
+
+  function isIndex(obj){
+    return !obj.title
+  }
+
+  goto('lessons/index.json')
+
+  return view
+
+}
+
+function MainMenu(index){
+  var view = {}
+  var element = view.element = h('ul')
+  var links = []
+  for (var i = 0; i < index.length; i++){
+    var link
+    var item = h('li', 
+      link = h('a', {
+        href: index[i].url
+      }, index[i].title)
+    )
+    links.push(link)
+    E.on(link, 'click', onLinkClicked)
+    element.appendChild(item)
+  }
+
+  function onLinkClicked(e){
+    e.preventDefault()
+    E.emit(view, 'goto', this.href)
+  }
+
+  view.destroy = function(){
+    for (var i = 0; i < links.length; i++){
+      E.off(links[i], 'click', onLinkClicked)
+    }
+  }
+
+  return view
+}
+
+
+
+/*
 window.onload = function(){
   getLesson(function(lesson){
-    var ui = UI(lesson)
+    var ui = LessonView(lesson)
     document.body.appendChild(ui.element)
     ui.focus()
   })
@@ -70,3 +94,4 @@ function getLesson(callback){
   }
   xhr.send()
 }
+*/

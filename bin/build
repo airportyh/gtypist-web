@@ -1,0 +1,59 @@
+#! /usr/bin/env node
+
+var parseLesson = require('./parse_lesson')
+var async = require('async')
+var path = require('path')
+var fs = require('fs')
+
+var files = [
+  ['q', 'Quick QWERTY'],
+  ['r', 'Long QWERTY'],
+  ['t', 'QWERTY touch'],
+  ['v', 'Yet more'],
+  ['u', 'OWERTY'],
+  ['d', 'Dvorak touch'],
+  ['c', 'Colemak touch'],
+  ['m', 'Typing drills'],
+  ['s', 'Speed drills'],
+  ['n', 'Calculator keypad']
+]
+
+async.each(files, convert, function(err){
+  if (err) console.error(e.message)
+  generateIndex(function(){
+    console.log('Done!')
+  })
+})
+
+function convert(pair, callback){
+  var file = path.join('lessons/typ/', pair[0] + '.typ')
+  var name = pair[1]
+  parseLesson(file, function(pages){
+    var lesson = {
+      title: name,
+      pages: pages
+    }
+    var outfile = path.join('lessons/json', pair[0] + '.json')
+    fs.writeFile(outfile, JSON.stringify(lesson, null, '  '), function(err){
+      if (err) console.log(err.message)
+      console.log('Generated', outfile, 'from', file + '.')
+      callback()
+    })
+  })
+}
+
+function generateIndex(callback){
+  var index = files.map(function(f){
+    return {
+      title: f[1],
+      url: 'lessons/json/' + f[0] + '.json',
+      name: f[0]
+    }
+  })
+  var file = path.join('lessons', 'index.json')
+  fs.writeFile(file, JSON.stringify(index, null, '  '), function(err){
+    if (err) return console.error(err)
+    console.log('Generated', file)
+  callback()
+  })
+}
