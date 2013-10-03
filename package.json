@@ -1,0 +1,29 @@
+{
+  "name": "gtypist-web",
+  "version": "0.0.0",
+  "description": "gtypist on the web!",
+  "main": "index.js",
+  "bin": {
+    "gtypist-web": "build.js"
+  },
+  "dependencies": {
+    "hyperscript": "~1.2.1",
+    "emmitt": "~0.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/airportyh/gtypist-web.git"
+  },
+  "keywords": [
+    "typing"
+  ],
+  "author": "Toby Ho",
+  "license": "GPLv3",
+  "bugs": {
+    "url": "https://github.com/airportyh/gtypist-web/issues"
+  }
+}
