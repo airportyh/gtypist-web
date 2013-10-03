@@ -32,7 +32,7 @@ function GTypistWeb(){
   function destroyCurrentView(){
     E.off(currentView, 'goto', goto)
     currentView.destroy()
-    element.innerHTML = ''
+    element.removeChild(currentView.element)
   }
 
   function isIndex(obj){
