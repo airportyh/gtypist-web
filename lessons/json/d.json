@@ -3,11 +3,13 @@
   "pages": [
     {
       "type": "text",
-      "text": "\t\t\tWelcome to the Dvorak Course\nThis course has been planned for beginners as well as experienced typists.\nIf you are a beginner learning to type on the Dvorak keyboard (the American\nSimplified Keyboard), you will find this keyboard easier to learn than the\nQWERTY (Sholes) keyboard.\nThis is because the Dvorak keyboard has been scientifically designed to minimize\ncumulative finger motion while typing English.  The ten letters on the home row\n(A, O, E, U, I, D, H, T, N, and S) make up about 70% of all keystrokes. These\nten letters alone can form over 3000 words.  Needless to say, having these keys\nin the home row facilitates both speed and accuracy.\nIf you are already an experienced typist on the Sholes keyboard, don't despair:\nyou won't have to unlearn everything you know.  Your basic typing dexterity\nremains with you, regardless of the keyboard layout.  Learning the Dvorak\nkeyboard is like learning to \"play on a new surface\", as a tennis player must\nlearn to adjust to grass court or hard court when she has been accustomed to\nplaying on a clay court."
+      "title": "Welcome to the Dvorak Course",
+      "text": "\nThis course has been planned for beginners as well as experienced typists.\nIf you are a beginner learning to type on the Dvorak keyboard (the American\nSimplified Keyboard), you will find this keyboard easier to learn than the\nQWERTY (Sholes) keyboard.\nThis is because the Dvorak keyboard has been scientifically designed to minimize\ncumulative finger motion while typing English.  The ten letters on the home row\n(A, O, E, U, I, D, H, T, N, and S) make up about 70% of all keystrokes. These\nten letters alone can form over 3000 words.  Needless to say, having these keys\nin the home row facilitates both speed and accuracy.\nIf you are already an experienced typist on the Sholes keyboard, don't despair:\nyou won't have to unlearn everything you know.  Your basic typing dexterity\nremains with you, regardless of the keyboard layout.  Learning the Dvorak\nkeyboard is like learning to \"play on a new surface\", as a tennis player must\nlearn to adjust to grass court or hard court when she has been accustomed to\nplaying on a clay court."
     },
     {
       "type": "text",
-      "text": "\t\t\tGeneral Instructions\nThe fingers of the left hand should be placed over the A-key, the O-key,\nthe E-key, and the U-key.  Similarly, the fingers of the right hand should be\nplaced over the H-key, the T-key, the N-key, and the S-key."
+      "title": "General Instructions",
+      "text": "\nThe fingers of the left hand should be placed over the A-key, the O-key,\nthe E-key, and the U-key.  Similarly, the fingers of the right hand should be\nplaced over the H-key, the T-key, the N-key, and the S-key."
     },
     {
       "type": "exercise",
@@ -74,7 +76,8 @@
     },
     {
       "type": "text",
-      "text": "                    Learning the Shift Key\nTo integrate the shift key rhythmically in your practice, a capital letter\nshould take three beats: 1--press the shift key opposite the hand to press\nthe letter; 2--press the letter; 3--release the shift key."
+      "title": "Learning the Shift Key",
+      "text": "\nTo integrate the shift key rhythmically in your practice, a capital letter\nshould take three beats: 1--press the shift key opposite the hand to press\nthe letter; 2--press the letter; 3--release the shift key."
     },
     {
       "type": "exercise",
@@ -137,7 +140,8 @@
     },
     {
       "type": "text",
-      "text": "                    Home Row and the Period\nThe period is above the E-finger.  Note that the end of a sentence is\nalways followed by two spaces; in abbreviations, it is followed by one\nspace."
+      "title": "Home Row and the Period",
+      "text": "\nThe period is above the E-finger.  Note that the end of a sentence is\nalways followed by two spaces; in abbreviations, it is followed by one\nspace."
     },
     {
       "type": "exercise",
@@ -194,7 +198,8 @@
     },
     {
       "type": "text",
-      "text": "                    Upper Row and Essential Punctuation"
+      "title": "Upper Row and Essential Punctuation",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -286,7 +291,8 @@
     },
     {
       "type": "text",
-      "text": "\t\tLearning the Lower Row"
+      "title": "Learning the Lower Row",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -696,11 +702,13 @@
     },
     {
       "type": "text",
-      "text": "\n\nThe following 135 words are so frequently used that they comprise 50%\nof all words normally typed.  If you can type the next two exercises without\nerrors, half of your typed words will be correct!"
+      "title": "The following 135 words are so frequently used that they comprise 50%",
+      "text": "\nof all words normally typed.  If you can type the next two exercises without\nerrors, half of your typed words will be correct!"
     },
     {
       "type": "text",
-      "text": "We now concentrate on home row words."
+      "title": "We now concentrate on home row words.",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -731,7 +739,8 @@
     },
     {
       "type": "text",
-      "text": "\n\nIn this lesson we practice alphabetic sentences."
+      "title": "In this lesson we practice alphabetic sentences.",
+      "text": ""
     },
     {
       "type": "exercise",

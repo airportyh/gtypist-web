@@ -3,7 +3,8 @@
   "pages": [
     {
       "type": "text",
-      "text": "\n\nIn the R series lessons we work on speed and accuracy."
+      "title": "In the R series lessons we work on speed and accuracy.",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -66,7 +67,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tSPEED EXERCISES\nFrom now on, I will be mixing speed exercises in with the lessons.  In the\ndrills that you have been doing, I make you keep practicing a line until\nyou get it right.  In a speed exercise, I will only display the text once.\nWhat will be different is that I will be timing you.  From the time you type\nthe first letter of the line until you hit the final carriage return, my\nstopwatch will be running.  When you finish, I will calculate your typing speed\nand convert it to words per minute (WPM).  I will also count each of the\nmistakes you make and display the total number of errors.\nIf you make a mistake, I will beep at you and light up the letter that you\nshould have typed in inverse video (a black letter on a white background).\nJust keep going and try to make as few errors as possible."
+      "title": "SPEED EXERCISES",
+      "text": "\nFrom now on, I will be mixing speed exercises in with the lessons.  In the\ndrills that you have been doing, I make you keep practicing a line until\nyou get it right.  In a speed exercise, I will only display the text once.\nWhat will be different is that I will be timing you.  From the time you type\nthe first letter of the line until you hit the final carriage return, my\nstopwatch will be running.  When you finish, I will calculate your typing speed\nand convert it to words per minute (WPM).  I will also count each of the\nmistakes you make and display the total number of errors.\nIf you make a mistake, I will beep at you and light up the letter that you\nshould have typed in inverse video (a black letter on a white background).\nJust keep going and try to make as few errors as possible."
     },
     {
       "type": "exercise",
@@ -658,7 +660,8 @@
     },
     {
       "type": "text",
-      "text": "\n\nIn this lesson we start on the top row, which has the numerals and\na lot of the special characters.  Note that the F-finger presses the\n4-key and the 5-key; the J-finger presses the 7-key and the 8-key.\nEither the F-finger or the J-finger may press the 6-key."
+      "title": "In this lesson we start on the top row, which has the numerals and",
+      "text": "\na lot of the special characters.  Note that the F-finger presses the\n4-key and the 5-key; the J-finger presses the 7-key and the 8-key.\nEither the F-finger or the J-finger may press the 6-key."
     },
     {
       "type": "exercise",
@@ -796,7 +799,8 @@
     },
     {
       "type": "text",
-      "text": "\n\nIn this lesson we will learn the rest of the special characters\non the keyboard."
+      "title": "In this lesson we will learn the rest of the special characters",
+      "text": "\non the keyboard."
     },
     {
       "type": "exercise",

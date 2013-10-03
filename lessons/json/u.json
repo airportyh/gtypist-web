@@ -3,7 +3,8 @@
   "pages": [
     {
       "type": "text",
-      "text": "\t\t\tWelcome to lesson U1\nStill don't know how to touch-type?  Let's start from the beginning and\ndrill you starting with the home row."
+      "title": "Welcome to lesson U1",
+      "text": "\nStill don't know how to touch-type?  Let's start from the beginning and\ndrill you starting with the home row."
     },
     {
       "type": "exercise",
@@ -140,7 +141,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t   (Drill on S Combinations)"
+      "title": "(Drill on S Combinations)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -160,7 +162,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t(Drill on R Combinations)"
+      "title": "(Drill on R Combinations)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -180,7 +183,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t(Drill on L Combinations)"
+      "title": "(Drill on L Combinations)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -200,7 +204,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t(Drill on D-T Combinations)"
+      "title": "(Drill on D-T Combinations)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -234,7 +239,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t(Drill on M-N Combinations)"
+      "title": "(Drill on M-N Combinations)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -257,7 +263,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t(Drill on com-con Combinations)"
+      "title": "(Drill on com-con Combinations)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -280,7 +287,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t(Drill on sion-tion Combinations)"
+      "title": "(Drill on sion-tion Combinations)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -302,7 +310,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t(Drill on ter, ther, tor, ture, ster, der Combinations)"
+      "title": "(Drill on ter, ther, tor, ture, ster, der Combinations)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -325,7 +334,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t(Drill on qu, ch, wh, dw, sw, tw Combinations)\n\t(Drill on de, des, dis, ex, self, tran)\n\t(Drill on cial, cious, ology, ship, tive)"
+      "title": "(Drill on qu, ch, wh, dw, sw, tw Combinations)",
+      "text": "\n\t(Drill on de, des, dis, ex, self, tran)\n\t(Drill on cial, cious, ology, ship, tive)"
     },
     {
       "type": "exercise",

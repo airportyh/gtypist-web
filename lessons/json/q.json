@@ -3,15 +3,18 @@
   "pages": [
     {
       "type": "text",
-      "text": "\t\t\tWelcome to lesson Q1.\nIn the Q series of lessons, we will be learning to touch-type on the standard\nkeyboard.  I will introduce you to each letter on the keyboard, one at a time.\nBy the time you have completed this series, you will be able to type the entire\nalphabet, the numbers, and most of the punctuation keys by touch.\nIf you have never taken any lessons in typing before, please be patient.  Typing\nis not difficult but it does take a lot of practice.  Avoid the tendency to\nlook down at your fingers while typing.  This is a very bad habit and is hard\nto break later.  If you hit the wrong key, I will let you know.  (But, I won't\ntell anyone else, so don't worry about it.)\nIf you have always used the hunt-and-peck method, you will have an even harder\ntime keeping yourself from looking.  Don't be surprised if you find touch\ntyping slower than your old ways.  It may be slower when you first start.\nBut, touch typing is far faster once you get the hang of it.\nIf you can already touch type, you should be able to go through these lessons\nfairly quickly.  Or, you may want to go directly to the S series."
+      "title": "Welcome to lesson Q1.",
+      "text": "\nIn the Q series of lessons, we will be learning to touch-type on the standard\nkeyboard.  I will introduce you to each letter on the keyboard, one at a time.\nBy the time you have completed this series, you will be able to type the entire\nalphabet, the numbers, and most of the punctuation keys by touch.\nIf you have never taken any lessons in typing before, please be patient.  Typing\nis not difficult but it does take a lot of practice.  Avoid the tendency to\nlook down at your fingers while typing.  This is a very bad habit and is hard\nto break later.  If you hit the wrong key, I will let you know.  (But, I won't\ntell anyone else, so don't worry about it.)\nIf you have always used the hunt-and-peck method, you will have an even harder\ntime keeping yourself from looking.  Don't be surprised if you find touch\ntyping slower than your old ways.  It may be slower when you first start.\nBut, touch typing is far faster once you get the hang of it.\nIf you can already touch type, you should be able to go through these lessons\nfairly quickly.  Or, you may want to go directly to the S series."
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\tThe HOME Keys.\nIn order to hit the correct keys by touch alone, you must always know where your\nfingers are.  The way to do this is to have a special place for each finger.\nThis key is called the HOME position.\nPlace the first finger of your right hand on the J-key.  Now, place your second\nfinger on the K-key, your third finger on the L-key, and your fourth-finger on\nthe ;-key (the one with the : and ; on it).\nSimilarly place the four fingers of your left hand on the F, D, S, and A-keys.\nPlace your right thumb over the SPACE bar.  (Henceforth, always hit the SPACE\nbar with this thumb.)  Now, lift all your fingers slightly so that they are\npoised just over the keys.  Each finger should be just barely touching its home\nkey.  This is an electronic keyboard and does not take much pressure to ac-\ncidentally press the key down.\nAbove the D-key is the E-key.  Above the K-key is the I-key.  Learn these\npositions well.  Whenever you are about to type a line, look at your fingers and\nmake sure they are in the HOME position.  Then don't look at them again."
+      "title": "The HOME Keys.",
+      "text": "\nIn order to hit the correct keys by touch alone, you must always know where your\nfingers are.  The way to do this is to have a special place for each finger.\nThis key is called the HOME position.\nPlace the first finger of your right hand on the J-key.  Now, place your second\nfinger on the K-key, your third finger on the L-key, and your fourth-finger on\nthe ;-key (the one with the : and ; on it).\nSimilarly place the four fingers of your left hand on the F, D, S, and A-keys.\nPlace your right thumb over the SPACE bar.  (Henceforth, always hit the SPACE\nbar with this thumb.)  Now, lift all your fingers slightly so that they are\npoised just over the keys.  Each finger should be just barely touching its home\nkey.  This is an electronic keyboard and does not take much pressure to ac-\ncidentally press the key down.\nAbove the D-key is the E-key.  Above the K-key is the I-key.  Learn these\npositions well.  Whenever you are about to type a line, look at your fingers and\nmake sure they are in the HOME position.  Then don't look at them again."
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\tDRILL PATTERNS\nFor the rest of this lesson, I will display a line of text in the middle of the\nscreen and instructions at the top of the screen.\nAll you have to do is type in the characters that you see in the middle of\nthe screen.  If you hit the correct key, I will not do anything.  If you make\na mistake, I will display a large X under the letter that you got wrong and\nbeep the terminal. In either event, just keep going by typing the next letter.\nWhen you have finished typing the line, hit the RETURN key.  To do this, extend\nthe little finger of your right hand over to the RETURN key.  Hit the key and\nzip the finger back to its home position.  Be careful not to let your other\nfingers move far from their home positions in the process.  Also, be careful\nnot to type an extra space at the end of the line.\nIf you made no mistakes on the line, I will display the next drill pattern.  If\nyou did make a mistake, I will beep at you and make you do the line again.  If\non the second try you made more than two mistakes, I will beep again and make\nyou try again, etc.  Don't forget to use your right thumb for the SPACE bar."
+      "title": "DRILL PATTERNS",
+      "text": "\nFor the rest of this lesson, I will display a line of text in the middle of the\nscreen and instructions at the top of the screen.\nAll you have to do is type in the characters that you see in the middle of\nthe screen.  If you hit the correct key, I will not do anything.  If you make\na mistake, I will display a large X under the letter that you got wrong and\nbeep the terminal. In either event, just keep going by typing the next letter.\nWhen you have finished typing the line, hit the RETURN key.  To do this, extend\nthe little finger of your right hand over to the RETURN key.  Hit the key and\nzip the finger back to its home position.  Be careful not to let your other\nfingers move far from their home positions in the process.  Also, be careful\nnot to type an extra space at the end of the line.\nIf you made no mistakes on the line, I will display the next drill pattern.  If\nyou did make a mistake, I will beep at you and make you do the line again.  If\non the second try you made more than two mistakes, I will beep again and make\nyou try again, etc.  Don't forget to use your right thumb for the SPACE bar."
     },
     {
       "type": "exercise",
@@ -90,7 +93,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\t  (h g o u n . t)\nIn this lesson you learn six new letters (H, G, O, U, N, T) and the period. (.).\nBe sure that the F-finger does not linger on the G-key  or the J-finger on the\nH-key.  Also be sure to use your fingers as follows:\n 'f' for 't' and 'g', 'j' for 'h', 'u' and 'n', finally use 'l' for 'o' and '.'\nNote that you always follow a period with two spaces."
+      "title": "(h g o u n . t)",
+      "text": "\nIn this lesson you learn six new letters (H, G, O, U, N, T) and the period. (.).\nBe sure that the F-finger does not linger on the G-key  or the J-finger on the\nH-key.  Also be sure to use your fingers as follows:\n 'f' for 't' and 'g', 'j' for 'h', 'u' and 'n', finally use 'l' for 'o' and '.'\nNote that you always follow a period with two spaces."
     },
     {
       "type": "exercise",
@@ -164,7 +168,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\t  (y r c , ? : p)\nYou learned first the letters that are most frequently used in the English\nlanguage.  They are repeated over and over again.\nOne space always follows a comma.  Don't forget there are two spaces between\nsentences, no matter what punctuation mark closes the sentence.\nThe colon (:) introduces a list and is followed by two spaces.  Finger usage:\n 'j' for 'y', 'f' for 'r', 'k' for ',', 'd' for 'c', ';' for '?', 'p' and ':'"
+      "title": "(y r c , ? : p)",
+      "text": "\nYou learned first the letters that are most frequently used in the English\nlanguage.  They are repeated over and over again.\nOne space always follows a comma.  Don't forget there are two spaces between\nsentences, no matter what punctuation mark closes the sentence.\nThe colon (:) introduces a list and is followed by two spaces.  Finger usage:\n 'j' for 'y', 'f' for 'r', 'k' for ',', 'd' for 'c', ';' for '?', 'p' and ':'"
     },
     {
       "type": "exercise",
@@ -261,7 +266,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\t(m w v z x b q ' -)\nSelf control is important in learning to type.  Concentrate on using the\ncorrect finger for each key.  In this lesson you learn the seven remaining\nletters of the alphabet.\nThe semicolon (;), like the comma, is followed by one space in a sentence.\nFingers:  'j' for 'm', 's' for 'w' and 'x', 'f' for 'v' and 'b',\n';' for ' and '-', 'a' for 'z' and 'q'"
+      "title": "(m w v z x b q ' -)",
+      "text": "\nSelf control is important in learning to type.  Concentrate on using the\ncorrect finger for each key.  In this lesson you learn the seven remaining\nletters of the alphabet.\nThe semicolon (;), like the comma, is followed by one space in a sentence.\nFingers:  'j' for 'm', 's' for 'w' and 'x', 'f' for 'v' and 'b',\n';' for ' and '-', 'a' for 'z' and 'q'"
     },
     {
       "type": "exercise",
@@ -362,7 +368,8 @@
     },
     {
       "type": "text",
-      "text": "\n\nNow you know all of the alphabet.  In this lesson we add the hyphen (-) and\nthe apostrophe (')."
+      "title": "Now you know all of the alphabet.  In this lesson we add the hyphen (-) and",
+      "text": "\nthe apostrophe (')."
     },
     {
       "type": "exercise",

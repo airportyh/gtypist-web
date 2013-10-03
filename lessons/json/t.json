@@ -3,15 +3,18 @@
   "pages": [
     {
       "type": "text",
-      "text": "\t\t\tWelcome to lesson T1.\nIn the T series of lessons, we will be learning to touch-type on the standard\nkeyboard.  I will introduce you to each letter on the keyboard, one at a time.\nBy the time you have completed this series, you will be able to type the entire\nalphabet, the numbers, and most of the punctuation keys by touch.\nIf you have never taken any lessons in typing before, please be patient.  Typing\nis not difficult but it does take a lot of practice.  Avoid the tendency to\nlook down at your fingers while typing.  This is a very bad habit and is hard\nto break later.  If you hit the wrong key, I will let you know.  (But, I won't\ntell anyone else, so don't worry about it.)\nIf you have always used the hunt-and-peck method, you will have an even harder\ntime keeping yourself from looking.  Don't be surprised if you find touch\ntyping slower than your old ways.  It may be slower when you first start.\nBut, touch typing is far faster once you get the hang of it.\nIf you can already touch type, you should be able to go through these lessons\nfairly quickly.  Or, you may want to go directly to the S series."
+      "title": "Welcome to lesson T1.",
+      "text": "\nIn the T series of lessons, we will be learning to touch-type on the standard\nkeyboard.  I will introduce you to each letter on the keyboard, one at a time.\nBy the time you have completed this series, you will be able to type the entire\nalphabet, the numbers, and most of the punctuation keys by touch.\nIf you have never taken any lessons in typing before, please be patient.  Typing\nis not difficult but it does take a lot of practice.  Avoid the tendency to\nlook down at your fingers while typing.  This is a very bad habit and is hard\nto break later.  If you hit the wrong key, I will let you know.  (But, I won't\ntell anyone else, so don't worry about it.)\nIf you have always used the hunt-and-peck method, you will have an even harder\ntime keeping yourself from looking.  Don't be surprised if you find touch\ntyping slower than your old ways.  It may be slower when you first start.\nBut, touch typing is far faster once you get the hang of it.\nIf you can already touch type, you should be able to go through these lessons\nfairly quickly.  Or, you may want to go directly to the S series."
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\tThe HOME Keys.\nIn order to hit the correct keys by touch alone, you must always know where your\nfingers are.  The way to do this is to have a special place for each finger.\nThis key is called the HOME position.\nPlace the first finger of your right hand on the J-key.  Now, place your second\nfinger on the K-key, your third finger on the L-key, and your fourth-finger on\nthe ;-key (the one with the : and ; on it).\nSimilarly place the four fingers of your left hand on the F, D, S, and A-keys.\nPlace your right thumb over the SPACE bar.  (Henceforth, always hit the SPACE\nbar with this thumb.)  Now, lift all your fingers slightly so that they are\npoised just over the keys.  Each finger should be just barely touching its home\nkey.  This is an electronic keyboard and does not take much pressure to ac-\ncidentally press the key down.\nLearn these positions well.  Whenever you are about to type a line, look at your\nfingers and make sure they are in the HOME position.  Then don't look at them\nagain."
+      "title": "The HOME Keys.",
+      "text": "\nIn order to hit the correct keys by touch alone, you must always know where your\nfingers are.  The way to do this is to have a special place for each finger.\nThis key is called the HOME position.\nPlace the first finger of your right hand on the J-key.  Now, place your second\nfinger on the K-key, your third finger on the L-key, and your fourth-finger on\nthe ;-key (the one with the : and ; on it).\nSimilarly place the four fingers of your left hand on the F, D, S, and A-keys.\nPlace your right thumb over the SPACE bar.  (Henceforth, always hit the SPACE\nbar with this thumb.)  Now, lift all your fingers slightly so that they are\npoised just over the keys.  Each finger should be just barely touching its home\nkey.  This is an electronic keyboard and does not take much pressure to ac-\ncidentally press the key down.\nLearn these positions well.  Whenever you are about to type a line, look at your\nfingers and make sure they are in the HOME position.  Then don't look at them\nagain."
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\tDRILL PATTERNS\nFor the rest of this lesson, I will display a line of text in the middle of the\nscreen and instructions at the top of the screen.\nAll you have to do is type in the characters that you see in the middle of\nthe screen.  If you hit the correct key, I will not do anything.  If you make\na mistake, I will display a large X under the letter that you got wrong and \nbeep the terminal. In either event, just keep going by typing the next letter.\nWhen you have finished typing the line, hit the RETURN key.  To do this, extend\nthe little finger of your right hand over to the RETURN key.  Hit the key and\nzip the finger back to its home position.  Be careful not to let your other\nfingers move far from their home positions in the process.  Also, be careful\nnot to type an extra space at the end of the line.\nIf you made no mistakes on the line, I will display the next drill pattern.  If\nyou did make a mistake, I will beep at you and make you do the line again.  If\non the second try you made more than two mistakes, I will beep again and make\nyou try again, etc.  Don't forget to use your right thumb for the SPACE bar."
+      "title": "DRILL PATTERNS",
+      "text": "\nFor the rest of this lesson, I will display a line of text in the middle of the\nscreen and instructions at the top of the screen.\nAll you have to do is type in the characters that you see in the middle of\nthe screen.  If you hit the correct key, I will not do anything.  If you make\na mistake, I will display a large X under the letter that you got wrong and \nbeep the terminal. In either event, just keep going by typing the next letter.\nWhen you have finished typing the line, hit the RETURN key.  To do this, extend\nthe little finger of your right hand over to the RETURN key.  Hit the key and\nzip the finger back to its home position.  Be careful not to let your other\nfingers move far from their home positions in the process.  Also, be careful\nnot to type an extra space at the end of the line.\nIf you made no mistakes on the line, I will display the next drill pattern.  If\nyou did make a mistake, I will beep at you and make you do the line again.  If\non the second try you made more than two mistakes, I will beep again and make\nyou try again, etc.  Don't forget to use your right thumb for the SPACE bar."
     },
     {
       "type": "exercise",
@@ -134,7 +137,8 @@
     },
     {
       "type": "text",
-      "text": "\n\nIn this lesson, we will review the letters that you have already practiced\nand will add the letters E, G, and H and the period.\nWhen you reach for any of these keys, be sure to return your finger to its\nhome position.  For example, to hit the H-key, move the first finger of your\nright hand (the J-finger) slightly to the left.  Tap the H-key and immediately\nbring your finger back over the J.\nIf you lose track of where your fingers are guess.  Don't look!"
+      "title": "In this lesson, we will review the letters that you have already practiced",
+      "text": "\nand will add the letters E, G, and H and the period.\nWhen you reach for any of these keys, be sure to return your finger to its\nhome position.  For example, to hit the H-key, move the first finger of your\nright hand (the J-finger) slightly to the left.  Tap the H-key and immediately\nbring your finger back over the J.\nIf you lose track of where your fingers are guess.  Don't look!"
     },
     {
       "type": "exercise",
@@ -208,7 +212,8 @@
     },
     {
       "type": "text",
-      "text": "The next key we are going to practice is the right shift key."
+      "title": "The next key we are going to practice is the right shift key.",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -254,7 +259,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tThe Left-Shift key."
+      "title": "The Left-Shift key.",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -335,7 +341,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tSPEED EXERCISES"
+      "title": "SPEED EXERCISES",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -487,7 +494,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tTHE BACKSPACE"
+      "title": "THE BACKSPACE",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -582,7 +590,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\tNUMERIC KEYS\nThe terminal has two sets of numeric keys.  One set--directly above the\nalphabetic keys--conforms to the standard for typewriter keyboards.  The other\nset--to your right--resembles a calculator keypad.  In this typing series we\nwill be concerned only with the standard numeric keys on the main keyboard.\n(If you would like to learn to touch type on a numeric keypad, use the N-series\nlessons instead.)\nNOTE - not all terminals have the numeric keys in a separate keypad\nThe numeric keys, like all the keys you will be learning from now on, vary\nsomewhat from machine to machine.  The 2 through 0 keys are always in exactly\nthe same place on all typewriter keyboards.  (On keypunch machines and some\nterminals, however, they are located over the U, I, O, J, K, L, M, comma and\nperiod keys.  We will not be concerned with these layouts in this series.)\nEven if a typewriter or terminal has the standard 2 through 0 keys, it may not\nhave a 1 key.  If it does, the 1 will always be next to the 2.  If it does not,\nyou will have to use the L-key."
+      "title": "NUMERIC KEYS",
+      "text": "\nThe terminal has two sets of numeric keys.  One set--directly above the\nalphabetic keys--conforms to the standard for typewriter keyboards.  The other\nset--to your right--resembles a calculator keypad.  In this typing series we\nwill be concerned only with the standard numeric keys on the main keyboard.\n(If you would like to learn to touch type on a numeric keypad, use the N-series\nlessons instead.)\nNOTE - not all terminals have the numeric keys in a separate keypad\nThe numeric keys, like all the keys you will be learning from now on, vary\nsomewhat from machine to machine.  The 2 through 0 keys are always in exactly\nthe same place on all typewriter keyboards.  (On keypunch machines and some\nterminals, however, they are located over the U, I, O, J, K, L, M, comma and\nperiod keys.  We will not be concerned with these layouts in this series.)\nEven if a typewriter or terminal has the standard 2 through 0 keys, it may not\nhave a 1 key.  If it does, the 1 will always be next to the 2.  If it does not,\nyou will have to use the L-key."
     },
     {
       "type": "exercise",
@@ -747,7 +756,8 @@
     },
     {
       "type": "text",
-      "text": "\n\nThere is no Lesson 13!  Don't you know that 13 is an unlucky number?\nIf you have completed Lessons T1 through T12, then you are now ready\nto call yourself a touch typist.  You have learned to touch type all\nof the keys which are standardized!  You can now begin the SPEED\nseries of lessons if you would like.  (If you come across a punctua-\ntion symbol which you have not learned, simply look for it.  Use the\nappropriate finger for the shifted numeric keys.  Use your ;-finger\nfor all the keys on the right-hand side.)\nWe will practice touch typing on the keyboard layout for the remaining\nlessons."
+      "title": "There is no Lesson 13!  Don't you know that 13 is an unlucky number?",
+      "text": "\nIf you have completed Lessons T1 through T12, then you are now ready\nto call yourself a touch typist.  You have learned to touch type all\nof the keys which are standardized!  You can now begin the SPEED\nseries of lessons if you would like.  (If you come across a punctua-\ntion symbol which you have not learned, simply look for it.  Use the\nappropriate finger for the shifted numeric keys.  Use your ;-finger\nfor all the keys on the right-hand side.)\nWe will practice touch typing on the keyboard layout for the remaining\nlessons."
     },
     {
       "type": "exercise",
@@ -779,7 +789,8 @@
     },
     {
       "type": "text",
-      "text": "\n"
+      "title": "",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -837,7 +848,8 @@
     },
     {
       "type": "text",
-      "text": "\n\nIn this lesson we will be practicing the shifted numeric keys on the\nterminal keyboard.  I will only be giving you practice in the keystroke\nmotions.  Very few sentence drills or speed exercises are included, since these\nkeys are used so infrequently.\nIf you are typing something which includes one of these special characters and\nyou cannot remember where a key is, look.  But, always make sure to hit the key\nwith the correct finger.  (If you do use the key often, you will eventually\nlearn where it is without looking.)  Since these keys are used infrequently and\nare in different places on most other keyboards or are totally missing, speed\nis not important."
+      "title": "In this lesson we will be practicing the shifted numeric keys on the",
+      "text": "\nterminal keyboard.  I will only be giving you practice in the keystroke\nmotions.  Very few sentence drills or speed exercises are included, since these\nkeys are used so infrequently.\nIf you are typing something which includes one of these special characters and\nyou cannot remember where a key is, look.  But, always make sure to hit the key\nwith the correct finger.  (If you do use the key often, you will eventually\nlearn where it is without looking.)  Since these keys are used infrequently and\nare in different places on most other keyboards or are totally missing, speed\nis not important."
     },
     {
       "type": "exercise",
@@ -876,7 +888,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\t\tTHE END"
+      "title": "THE END",
+      "text": ""
     }
   ]
 }

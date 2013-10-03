@@ -5,11 +5,10 @@ module.exports = parseLesson
 function parseLesson(file, callback){
 
   fs.readFile(file, function(err, data){
-    var text = '' + data
-    var lines = text.split('\n')
+    var lines = ('' + data).split('\n')
     //console.log('# of lines', lines.length)
     var exercises = []
-    var reading = null
+    var text = null
     var prompt = null
     var exeLines = null
     lines.forEach(function(line){
@@ -26,15 +25,16 @@ function parseLesson(file, callback){
           })
           prompt = null
           exeLines = null
-          reading = null
-        }else if (reading){
+          text = null
+        }else if (text){
           exercises.push({
             type: 'text',
-            text: reading
+            title: text.title,
+            text: text.text
           })
           prompt = null
           exeLines = null
-          reading = null
+          text = null
         }
         // ignore empty lines
       }else if (m = line.match(/^I\:(.+)$/)){
@@ -44,13 +44,20 @@ function parseLesson(file, callback){
       }else if (m = line.match(/^ :(.+)$/)){
         if (exeLines){
           exeLines.push(m[1])
-        }else if (reading){
-          reading += '\n' + m[1]
+        }else if (text){
+          if (!text.title){
+            text.title = m[1].trim()
+          }else{
+            text.text += '\n' + m[1]
+          }
         }else if (exeLines){
           prompt += '\n' + m[1]
         }
       }else if (m = line.match(/^T\:(.*)$/)){
-        reading = m[1] || '\n'
+        text = {
+          title: m[1].trim(),
+          text: ''
+        }
       }else{
         // ignore
         //console.log(line)

@@ -3,7 +3,8 @@
   "pages": [
     {
       "type": "text",
-      "text": "\t\t\tLesson\tV1"
+      "title": "Lesson\tV1",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -27,7 +28,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t       (D K E I)"
+      "title": "(D K E I)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -87,7 +89,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\t     (T Y G H)"
+      "title": "(T Y G H)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -163,7 +166,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\t(S L W O)"
+      "title": "(S L W O)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -232,7 +236,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t        (A ; Q P)"
+      "title": "(A ; Q P)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -310,7 +315,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t    (Shift Keys for Capitalization)"
+      "title": "(Shift Keys for Capitalization)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -368,7 +374,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t(Shift Lock and :)"
+      "title": "(Shift Lock and :)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -424,7 +431,8 @@
     },
     {
       "type": "text",
-      "text": "\n"
+      "title": "",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -466,7 +474,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\t(V and M)"
+      "title": "(V and M)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -509,7 +518,8 @@
     },
     {
       "type": "text",
-      "text": "\n"
+      "title": "",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -570,7 +580,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t      (C and Comma)"
+      "title": "(C and Comma)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -638,7 +649,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\t(X and .)"
+      "title": "(X and .)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -699,7 +711,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\t(Z and /)"
+      "title": "(Z and /)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -756,7 +769,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t   (The Question Mark)"
+      "title": "(The Question Mark)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -820,7 +834,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\t(1, 4, 5, 6, 7)"
+      "title": "(1, 4, 5, 6, 7)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -910,7 +925,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\t(3 and 8)"
+      "title": "(3 and 8)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -967,7 +983,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t\t(2 and 9)"
+      "title": "(2 and 9)",
+      "text": ""
     },
     {
       "type": "exercise",
@@ -1026,7 +1043,8 @@
     },
     {
       "type": "text",
-      "text": "\n\n\t\t    (0 and the Hyphen)"
+      "title": "(0 and the Hyphen)",
+      "text": ""
     },
     {
       "type": "exercise",

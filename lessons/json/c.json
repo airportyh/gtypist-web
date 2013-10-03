@@ -3,11 +3,13 @@
   "pages": [
     {
       "type": "text",
-      "text": "\t\t\tWelcome to the Colemak Course\nThis course is intended for beginners as well as experienced typists.  The\nColemak keyboard is an alternative to the QWERTY (Sholes) keyboard layout.\nYou will find it easier to learn than the QWERTY and Dvorak keyboard layouts.\nLike the Dvorak keyboard, this is because the Colemak keyboard layout has been\nscientifically designed to minimise cumulative finger motion while typing\nEnglish.  The ten letters on the home row (A, R, S, T, D, H, N, E, I, and O)\nmake up about 70% of all keystrokes.  These ten letters alone can form over\n3000 words.  Needless to say, having these keys in the home row facilitates\nboth speed and accuracy.\nUnlike the Dvorak keyboard layout, however, the Colemak keyboard layout has\nalso specifically been designed to be easy to learn for people who are already\nfamiliar with using a QWERTY keyboard layout.  Despite this, it appears that\nthe Colemak keyboard is as fast as, if not faster than, the Dvorak keyboard.\nFor information about the Colemak kyboard layout, see <http://colemak.com/>."
+      "title": "Welcome to the Colemak Course",
+      "text": "\nThis course is intended for beginners as well as experienced typists.  The\nColemak keyboard is an alternative to the QWERTY (Sholes) keyboard layout.\nYou will find it easier to learn than the QWERTY and Dvorak keyboard layouts.\nLike the Dvorak keyboard, this is because the Colemak keyboard layout has been\nscientifically designed to minimise cumulative finger motion while typing\nEnglish.  The ten letters on the home row (A, R, S, T, D, H, N, E, I, and O)\nmake up about 70% of all keystrokes.  These ten letters alone can form over\n3000 words.  Needless to say, having these keys in the home row facilitates\nboth speed and accuracy.\nUnlike the Dvorak keyboard layout, however, the Colemak keyboard layout has\nalso specifically been designed to be easy to learn for people who are already\nfamiliar with using a QWERTY keyboard layout.  Despite this, it appears that\nthe Colemak keyboard is as fast as, if not faster than, the Dvorak keyboard.\nFor information about the Colemak kyboard layout, see <http://colemak.com/>."
     },
     {
       "type": "text",
-      "text": "\t\t\tGeneral Instructions\nThe fingers of the left hand should be placed over the A-key, the R-key,\nthe S-key, and the T-key.  Similarly, the fingers of the right hand should be\nplaced over the N-key, the E-key, the I-key, and the O-key.  This is called the\nHOME position.  Only these fingers should be used to press the keys that they\nare above.\nIn addition to these keys, the SPACE bar should be pressed with the thumb of\nthe right hand.  At the end of every line, the RETURN key should be pressed\nwith the fourth finger of the right hand."
+      "title": "General Instructions",
+      "text": "\nThe fingers of the left hand should be placed over the A-key, the R-key,\nthe S-key, and the T-key.  Similarly, the fingers of the right hand should be\nplaced over the N-key, the E-key, the I-key, and the O-key.  This is called the\nHOME position.  Only these fingers should be used to press the keys that they\nare above.\nIn addition to these keys, the SPACE bar should be pressed with the thumb of\nthe right hand.  At the end of every line, the RETURN key should be pressed\nwith the fourth finger of the right hand."
     },
     {
       "type": "exercise",
@@ -75,7 +77,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tGeneral Instructions\nWhen you need to press the D-key or the H-key, the first finger of the left or\nright hand, respectively, should be used.  No other finger should be used."
+      "title": "General Instructions",
+      "text": "\nWhen you need to press the D-key or the H-key, the first finger of the left or\nright hand, respectively, should be used.  No other finger should be used."
     },
     {
       "type": "exercise",
@@ -165,7 +168,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tGeneral Instructions\nThe P-key and the L-key should be pressed only by the first finger of the left\nor right hand."
+      "title": "General Instructions",
+      "text": "\nThe P-key and the L-key should be pressed only by the first finger of the left\nor right hand."
     },
     {
       "type": "exercise",
@@ -193,7 +197,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tGeneral Instructions\nThe F-key and the U-key should be pressed only by the second finger of the left\nor right hand."
+      "title": "General Instructions",
+      "text": "\nThe F-key and the U-key should be pressed only by the second finger of the left\nor right hand."
     },
     {
       "type": "exercise",
@@ -221,7 +226,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tGeneral Instructions\nThe W-key and the Y-key should be pressed only by the third finger of the left\nor right hand."
+      "title": "General Instructions",
+      "text": "\nThe W-key and the Y-key should be pressed only by the third finger of the left\nor right hand."
     },
     {
       "type": "exercise",
@@ -257,7 +263,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tGeneral Instructions\nThe G-key and the J-key should be pressed only by the first finger of the left\nor right hand."
+      "title": "General Instructions",
+      "text": "\nThe G-key and the J-key should be pressed only by the first finger of the left\nor right hand."
     },
     {
       "type": "exercise",
@@ -293,7 +300,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tGeneral Instructions\nThe M-key and the V-key should be pressed only by the first finger of the left\nor right hand."
+      "title": "General Instructions",
+      "text": "\nThe M-key and the V-key should be pressed only by the first finger of the left\nor right hand."
     },
     {
       "type": "exercise",
@@ -329,7 +337,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tGeneral Instructions\nThe B-key and the K-key should be pressed only by the first finger of the left\nor right hand."
+      "title": "General Instructions",
+      "text": "\nThe B-key and the K-key should be pressed only by the first finger of the left\nor right hand."
     },
     {
       "type": "exercise",
@@ -365,7 +374,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tGeneral Instructions\nThe Q-key should be pressed only by fourth finger on the left hand.  The C-key\nshould only be pressed by the second finger on the left hand."
+      "title": "General Instructions",
+      "text": "\nThe Q-key should be pressed only by fourth finger on the left hand.  The C-key\nshould only be pressed by the second finger on the left hand."
     },
     {
       "type": "exercise",
@@ -409,7 +419,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tGeneral Instructions\nThe Z-key and X-key should be pressed by fourth and third fingers on the left\nhand, respectively."
+      "title": "General Instructions",
+      "text": "\nThe Z-key and X-key should be pressed by fourth and third fingers on the left\nhand, respectively."
     },
     {
       "type": "exercise",
@@ -445,7 +456,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tLearning the SHIFT key\nTo integrate the shift key rhythmically in your practice, a capital letter\nshould take three beats:\n  1. press the shift key opposite the hand to press the letter key\n  2. press the letter\n  3. release the shift key"
+      "title": "Learning the SHIFT key",
+      "text": "\nTo integrate the shift key rhythmically in your practice, a capital letter\nshould take three beats:\n  1. press the shift key opposite the hand to press the letter key\n  2. press the letter\n  3. release the shift key"
     },
     {
       "type": "exercise",
@@ -490,7 +502,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tLearning punctuation\nThe period/full stop is below the forth finger on the right hand.  Note that\nthe end of a sentence should be followed by two spaces; in abbreviations, it is\nfollowed by one space.\nThe comma is below the third finger on the right hand.\nThe fourth finger of the right hand and the left SHIFT key should be used to\ntype a question point/mark."
+      "title": "Learning punctuation",
+      "text": "\nThe period/full stop is below the forth finger on the right hand.  Note that\nthe end of a sentence should be followed by two spaces; in abbreviations, it is\nfollowed by one space.\nThe comma is below the third finger on the right hand.\nThe fourth finger of the right hand and the left SHIFT key should be used to\ntype a question point/mark."
     },
     {
       "type": "exercise",
@@ -537,7 +550,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tFrequent words\nThe following 135 words are so frequently used that they comprise 50% of all\nwords normally typed.  If you can type the next two exercises without errors,\nhalf of all of your typed words will be correct!"
+      "title": "Frequent words",
+      "text": "\nThe following 135 words are so frequently used that they comprise 50% of all\nwords normally typed.  If you can type the next two exercises without errors,\nhalf of all of your typed words will be correct!"
     },
     {
       "type": "exercise",
@@ -563,7 +577,8 @@
     },
     {
       "type": "text",
-      "text": "We now concentrate on words amongst the top one thousand most frequently used\nthat can be types using only the HOME row."
+      "title": "We now concentrate on words amongst the top one thousand most frequently used",
+      "text": "\nthat can be types using only the HOME row."
     },
     {
       "type": "exercise",
@@ -586,7 +601,8 @@
     },
     {
       "type": "text",
-      "text": "\t\t\tAlphabetic sentences\nIn this lesson we practice alphabetic sentences."
+      "title": "Alphabetic sentences",
+      "text": "\nIn this lesson we practice alphabetic sentences."
     },
     {
       "type": "exercise",
