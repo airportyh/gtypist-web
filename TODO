@@ -1,4 +1,10 @@
-1. make multi-line work.
-2. address bug with observable.
-2. To parse and support all lessons.
-3. Display instructions.
+TODO
+====
+
+1. Parse out title for the text-based pages.
+2. End a lesson.
+3. Being able to access multiple lessons.
+4. Calculate and display wpm and other stats.
+5. Calculate error rate and reject if error rate is too high.
+6. Real URLs/routing.
+7. Merge all the CSS into the widgets themselves.
