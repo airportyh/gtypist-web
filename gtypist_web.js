@@ -15,9 +15,7 @@ function GTypistWeb(){
   function goto(url){
     ajax(url, function(obj){
       if (currentView){
-        E.off(currentView, 'goto', goto)
-        currentView.destroy()
-        element.innerHTML = ''
+        destroyCurrentView()
       }
       
       if (isIndex(obj)){
@@ -31,9 +29,17 @@ function GTypistWeb(){
     })
   }
 
+  function destroyCurrentView(){
+    E.off(currentView, 'goto', goto)
+    currentView.destroy()
+    element.innerHTML = ''
+  }
+
   function isIndex(obj){
     return !obj.title
   }
+
+  view.destroy = destroyCurrentView
 
   goto('lessons/index.json')
 
