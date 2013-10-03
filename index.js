@@ -1,85 +1,75 @@
 var h = require('hyperscript')
-var o = require('observable')
+var E = require('emmitt')
+var ExerciseView = require('./exercise_view')
 
 function UI(lesson){
-  var idx = o()
-  idx(0)
-  var exercise = lesson[idx()]
-  var expectedText = o()
-  var prompt = o()
-  var textarea = h('textarea', {
-    'spellcheck': false, 
-    'rows': 1
-  }, {
-    onkeydown: onKeyDown
-  })
-  var text = o.input(textarea)
-  var expectedTextDisplay = o.compute(
-    [text, expectedText], function(text, expected){
-      console.log('text', text, 'expected', expected)
-      
-      for (var i = text.length; i--;){
-        var sub = text.substring(0, i + 1)
-        if (expected.substring(0, sub.length) === sub){
-          break
-        }
-      }
-      console.log('i', i, 'sub', sub)
-      if (!expected){
-        return ''
-      }
-      if (!sub){
-        return expected
-      }else{
-        return h('span', 
-            h('span', {className: 'good'}, expected.substring(0, i + 1)),
-            h('span', {className: 'bad'}, expected.substring(i + 1, text.length)),
-            h('span', expected.substring(text.length))
-          )
-      }
-    })
-  var complete = o.compute(
-    [text, expectedText], function(text, expected){
-      return text === expected
-    })
-  var preClass = o.compute([complete], function(good){
-    return good ? 'good': ''
-  })
-  advanceExercise(exercise)
-  function onKeyDown(e){
-    if (e.keyCode === 13){
-      e.preventDefault()
-      if (complete()){
-        nextExercise()
-      }
-    }
-  }
-  function nextExercise(){
-    idx(idx() + 1)
-    exercise = lesson[idx()]
-    advanceExercise(exercise)
-    
-  }
-  function advanceExercise(exercise){
-    text('')
-    expectedText(exercise.lines.join('\n'))
-    prompt(exercise.prompt)
-  }
-  var ui = h('div',
-    h('label', prompt),
-    h('pre', {'className': preClass}, expectedTextDisplay),
-    textarea
+  var prompt
+  var exerciseView
+  var nextB
+  var prevB
+  var element = h('div',
+    nextB = h('a', {href: '#', onclick: next}, 'Next'),
+    prevB = h('a', {href: '#', onclick: prev}, 'Prev')
   )
 
-  setTimeout(function(){
-    textarea.focus()
-  }, 0)
-  return ui
+  var exerciseIdx = 2
+  displayExercise()
+
+  function currentExercise(){
+    return lesson[exerciseIdx]
+  }
+
+  function onAdvance(){
+    console.log('advance exercise')
+    next()
+  }
+
+  function displayExercise(){
+    var exe = currentExercise()
+    exerciseView = ExerciseView(exe)
+    element.appendChild(exerciseView.element)
+    exerciseView.focus()
+    E.on(exerciseView, 'advance', onAdvance)
+  }
+
+  function destroyExercise(){
+    E.off(exerciseView, 'advance', onAdvance)
+    exerciseView.destroy()
+    element.removeChild(exerciseView.element)
+  }
+
+  function next(){
+    exerciseIdx++
+    destroyExercise()
+    displayExercise()
+  }
+
+  function prev(){
+    exerciseIdx--
+    destroyExercise()
+    displayExercise()
+  }
+
+  function focus(){
+    exerciseView.focus()
+  }
+
+  function destroy(){
+    destroyExercise()
+  }
+
+  return {
+    element: element,
+    focus: focus,
+    destroy: destroy
+  }
 }
 
 window.onload = function(){
   getLesson(function(lesson){
-    document.body.appendChild(UI(lesson))
+    var ui = UI(lesson)
+    document.body.appendChild(ui.element)
+    ui.focus()
   })
 }
 
