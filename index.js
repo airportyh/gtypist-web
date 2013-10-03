@@ -1,18 +1,13 @@
 var h = require('hyperscript')
 var E = require('emmitt')
-var ExerciseView = require('./exercise_view')
+var PageView = require('./page_view')
 
 function UI(lesson){
   var prompt
   var exerciseView
-  var nextB
-  var prevB
-  var element = h('div',
-    nextB = h('a', {href: '#', onclick: next}, 'Next'),
-    prevB = h('a', {href: '#', onclick: prev}, 'Prev')
-  )
+  var element = h('div')
 
-  var exerciseIdx = 2
+  var exerciseIdx = 0
   displayExercise()
 
   function currentExercise(){
@@ -20,15 +15,14 @@ function UI(lesson){
   }
 
   function onAdvance(){
-    console.log('advance exercise')
     next()
   }
 
   function displayExercise(){
     var exe = currentExercise()
-    exerciseView = ExerciseView(exe)
+    exerciseView = PageView(exe)
     element.appendChild(exerciseView.element)
-    exerciseView.focus()
+    focus()
     E.on(exerciseView, 'advance', onAdvance)
   }
 
@@ -44,14 +38,8 @@ function UI(lesson){
     displayExercise()
   }
 
-  function prev(){
-    exerciseIdx--
-    destroyExercise()
-    displayExercise()
-  }
-
   function focus(){
-    exerciseView.focus()
+    if (exerciseView.focus) exerciseView.focus()
   }
 
   function destroy(){

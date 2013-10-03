@@ -7,8 +7,10 @@ function ExerciseLineView(line){
 
   var display
   var textarea
+  var checkmark
   var element = h('div', 
     display = h('pre', line),
+    checkmark = h('span.checkmark.hide', '   \u2713'),
     textarea = h('input', {
       'className': 'textarea',
       'type': 'text',
@@ -35,7 +37,7 @@ function ExerciseLineView(line){
   }
 
   function onKeyUp(e){
-    hasClass(display, 'good', textMatches())
+    hasClass(checkmark, 'hide', !okToAdvance())
   }
 
   function textMatches(){

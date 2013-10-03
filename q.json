@@ -1,17 +1,32 @@
 [
   {
+    "type": "text",
+    "text": "\t\t\tWelcome to lesson Q1.\nIn the Q series of lessons, we will be learning to touch-type on the standard\nkeyboard.  I will introduce you to each letter on the keyboard, one at a time.\nBy the time you have completed this series, you will be able to type the entire\nalphabet, the numbers, and most of the punctuation keys by touch.\nIf you have never taken any lessons in typing before, please be patient.  Typing\nis not difficult but it does take a lot of practice.  Avoid the tendency to\nlook down at your fingers while typing.  This is a very bad habit and is hard\nto break later.  If you hit the wrong key, I will let you know.  (But, I won't\ntell anyone else, so don't worry about it.)\nIf you have always used the hunt-and-peck method, you will have an even harder\ntime keeping yourself from looking.  Don't be surprised if you find touch\ntyping slower than your old ways.  It may be slower when you first start.\nBut, touch typing is far faster once you get the hang of it.\nIf you can already touch type, you should be able to go through these lessons\nfairly quickly.  Or, you may want to go directly to the S series."
+  },
+  {
+    "type": "text",
+    "text": "\n\n\t\t\tThe HOME Keys.\nIn order to hit the correct keys by touch alone, you must always know where your\nfingers are.  The way to do this is to have a special place for each finger.\nThis key is called the HOME position.\nPlace the first finger of your right hand on the J-key.  Now, place your second\nfinger on the K-key, your third finger on the L-key, and your fourth-finger on\nthe ;-key (the one with the : and ; on it).\nSimilarly place the four fingers of your left hand on the F, D, S, and A-keys.\nPlace your right thumb over the SPACE bar.  (Henceforth, always hit the SPACE\nbar with this thumb.)  Now, lift all your fingers slightly so that they are\npoised just over the keys.  Each finger should be just barely touching its home\nkey.  This is an electronic keyboard and does not take much pressure to ac-\ncidentally press the key down.\nAbove the D-key is the E-key.  Above the K-key is the I-key.  Learn these\npositions well.  Whenever you are about to type a line, look at your fingers and\nmake sure they are in the HOME position.  Then don't look at them again."
+  },
+  {
+    "type": "text",
+    "text": "\n\n\t\t\tDRILL PATTERNS\nFor the rest of this lesson, I will display a line of text in the middle of the\nscreen and instructions at the top of the screen.\nAll you have to do is type in the characters that you see in the middle of\nthe screen.  If you hit the correct key, I will not do anything.  If you make\na mistake, I will display a large X under the letter that you got wrong and\nbeep the terminal. In either event, just keep going by typing the next letter.\nWhen you have finished typing the line, hit the RETURN key.  To do this, extend\nthe little finger of your right hand over to the RETURN key.  Hit the key and\nzip the finger back to its home position.  Be careful not to let your other\nfingers move far from their home positions in the process.  Also, be careful\nnot to type an extra space at the end of the line.\nIf you made no mistakes on the line, I will display the next drill pattern.  If\nyou did make a mistake, I will beep at you and make you do the line again.  If\non the second try you made more than two mistakes, I will beep again and make\nyou try again, etc.  Don't forget to use your right thumb for the SPACE bar."
+  },
+  {
+    "type": "exercise",
     "prompt": "(1) Try this:",
     "lines": [
       "asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj"
     ]
   },
   {
+    "type": "exercise",
     "prompt": "Now this (use 'k' finger for 'i' and 'd' finger for 'e'):",
     "lines": [
       "asdef ;lkij asdef ;lkij asdef ;lkij asdef ;lkij asdef ;lkij"
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(2) Some more:",
     "lines": [
       "as al ad ak af aj fa ka da la sa ja sl sd sk sf ls ds ks fs",
@@ -20,13 +35,14 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(3) Hang in there; let's do some sentences...",
     "lines": [
-      "To get capitals use your ';' finger on [right-SHIFT]",
       "Dad adds a salad  A lad asks  Salad falls as a lad asks Dad"
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(4) Now try [left-SHIFT] usage (for 'L') and [right-SHIFT]!",
     "lines": [
       "Lease a desk  Add a safe deal  Ask less fees  Add a lease",
@@ -34,6 +50,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(5)",
     "lines": [
       "Feel a dead faded leaf  Seeds fall as a faded leaf falls",
@@ -42,6 +59,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(6)",
     "lines": [
       "Idle Sid seeks a salad  Sis aids Sid  A salad is laid aside",
@@ -51,6 +69,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(7)",
     "lines": [
       "Sails fill as Sis sails a safe lake  Skill aids Sis  Dad",
@@ -61,12 +80,18 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(8)",
     "lines": [
       "Sid adds all sail as Dad sees a safe sea as idle as a lake"
     ]
   },
   {
+    "type": "text",
+    "text": "\n\n\t\t\t  (h g o u n . t)\nIn this lesson you learn six new letters (H, G, O, U, N, T) and the period. (.).\nBe sure that the F-finger does not linger on the G-key  or the J-finger on the\nH-key.  Also be sure to use your fingers as follows:\n 'f' for 't' and 'g', 'j' for 'h', 'u' and 'n', finally use 'l' for 'o' and '.'\nNote that you always follow a period with two spaces."
+  },
+  {
+    "type": "exercise",
     "prompt": "(1) Rhythm Drill",
     "lines": [
       "a;sldkfjgh a;sldkfjgh a;sldkfjgh a;sldkfjgh a;sldkfjgh",
@@ -75,6 +100,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(2) Balanced Keyboard Drill",
     "lines": [
       "as os es us is an on en un in at ot et ut it ad od ed ud id",
@@ -83,6 +109,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(3) Continuous Copy",
     "lines": [
       "Ed had a shed.  His shed had dishes.  He had shade.",
@@ -91,6 +118,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(4)",
     "lines": [
       "Odd ideas are like odd seeds.  Odd seeds die as do odd deeds.",
@@ -99,6 +127,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(5)",
     "lines": [
       "Sid used us.  Sid sued us.  Ada used us as aid.  I did aid.",
@@ -107,6 +136,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(6)",
     "lines": [
       "Ed is staid.  Ed uses tested data as assets.  Sis is a",
@@ -115,6 +145,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(7)",
     "lines": [
       "Sis said Dean is dense as sand.  Dean needs an idea and Sis",
@@ -123,12 +154,18 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(8) Rhythmic Review",
     "lines": [
       "He sees that in a test he has to state and use a sane idea."
     ]
   },
   {
+    "type": "text",
+    "text": "\n\n\t\t\t  (y r c , ? : p)\nYou learned first the letters that are most frequently used in the English\nlanguage.  They are repeated over and over again.\nOne space always follows a comma.  Don't forget there are two spaces between\nsentences, no matter what punctuation mark closes the sentence.\nThe colon (:) introduces a list and is followed by two spaces.  Finger usage:\n 'j' for 'y', 'f' for 'r', 'k' for ',', 'd' for 'c', ';' for '?', 'p' and ':'"
+  },
+  {
+    "type": "exercise",
     "prompt": "(1) Rhythm Drill",
     "lines": [
       "deki frju dck, dcl. frju ftjy deki frju dck, dcl. frju ftjy",
@@ -136,6 +173,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(2) Balanced Keyboard Drill",
     "lines": [
       "ag ac ar al ap at ay af ug uc ur ul up ut eg ec er el ep et",
@@ -147,6 +185,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(3) Continuous Copy",
     "lines": [
       "Chance can aid a nice choice.  It can teach one to count his",
@@ -154,6 +193,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(4)",
     "lines": [
       "At his age a good song is the thing as he gets his dog and",
@@ -161,6 +201,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(5)",
     "lines": [
       "As soon as papa is deep in a nap Pat happens to pound in his",
@@ -168,6 +209,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(6)",
     "lines": [
       "I hear there is an error in her other order.  The store sent",
@@ -175,6 +217,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(7)",
     "lines": [
       "I shall hold those ideal hotel lots at least until all land",
@@ -182,6 +225,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(8)",
     "lines": [
       "Sunday is too soon.  It is not easy to stay and study this",
@@ -189,6 +233,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(9)",
     "lines": [
       "One needs to use faith if one fishes often.  It is fun to sit",
@@ -196,6 +241,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(9A)",
     "lines": [
       "Hello, is this Dan?  Hello, Dan, this is Ann.  No, Ann.  Did",
@@ -205,12 +251,18 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(10) Rhythmic Review",
     "lines": [
       "Papa can not plan to get us all there in such a car as this."
     ]
   },
   {
+    "type": "text",
+    "text": "\n\n\t\t\t(m w v z x b q ' -)\nSelf control is important in learning to type.  Concentrate on using the\ncorrect finger for each key.  In this lesson you learn the seven remaining\nletters of the alphabet.\nThe semicolon (;), like the comma, is followed by one space in a sentence.\nFingers:  'j' for 'm', 's' for 'w' and 'x', 'f' for 'v' and 'b',\n';' for ' and '-', 'a' for 'z' and 'q'"
+  },
+  {
+    "type": "exercise",
     "prompt": "(1) Rhythm Drill",
     "lines": [
       "dedc kik, frfv jujm swsx lol. aqaz ;p;p frfv jujm ftfb jyjn",
@@ -218,6 +270,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(2) Balanced Keyboard Drill",
     "lines": [
       "am aw av az ak ax ab um ub em ew ev ez ek eq ex om ow ov oz",
@@ -227,6 +280,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(3) Continuous Copy",
     "lines": [
       "Iowa was white with snow when we two went down town and saw",
@@ -234,6 +288,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(4)",
     "lines": [
       "John has to use a tan and jet auto.  He joined Jane in its",
@@ -241,6 +296,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(5)",
     "lines": [
       "Smith is his name.  He is on some Maine team.  I am to meet",
@@ -248,6 +304,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(6)",
     "lines": [
       "Kate uses ink to send a note south to Kansas kin.  She asks",
@@ -255,6 +312,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(7)",
     "lines": [
       "I advise Eva in vain to avoid an auto visit in seven states.",
@@ -262,6 +320,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(8)",
     "lines": [
       "She has questions and unique ideas to quote us.  So she is",
@@ -269,6 +328,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(9)",
     "lines": [
       "The zoo is shut.  His zest is dashed.  Dan dozes.  One sneeze",
@@ -276,6 +336,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(9A)",
     "lines": [
       "The boat has been best to Boston.  On this basis no doubt one",
@@ -283,6 +344,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(9B)",
     "lines": [
       "Nan is in Texas.  She is anxious to dine at six.  She sees a",
@@ -290,12 +352,18 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(10) Rhythmic Review",
     "lines": [
       "Ask them to let us have the car if they both go to the show."
     ]
   },
   {
+    "type": "text",
+    "text": "\n\nNow you know all of the alphabet.  In this lesson we add the hyphen (-) and\nthe apostrophe (')."
+  },
+  {
+    "type": "exercise",
     "prompt": "(1) Rhythm Drill",
     "lines": [
       "dedc kik, frfv jujm swsx lol. aqaz ;p;p frfv jujm ftfb jyjn",
@@ -303,6 +371,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(2) Balanced Keyboard Drill",
     "lines": [
       "ad ar an al am ab ee st ed er en el es em ex om on or un up",
@@ -311,6 +380,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(3) Continuous Copy -- Review",
     "lines": [
       "It is a good thing papa has gone.  Pat gets up a deep song.",
@@ -318,6 +388,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(4)",
     "lines": [
       "They often need funds but don't think it is any fun to study.",
@@ -325,6 +396,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(5)",
     "lines": [
       "Ted notes an odd noise.  Dan is in the seas and needs aid.",
@@ -332,6 +404,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(6)",
     "lines": [
       "A good visit East is Ann's next quest.  Ann seems to seize",
@@ -339,6 +412,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(7)",
     "lines": [
       "She is to adjust her six visits to have a snow-white Maine",
@@ -346,6 +420,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(8)",
     "lines": [
       "It's a tax on time, but it's quite a new zone to Ann who is",
@@ -353,6 +428,7 @@
     ]
   },
   {
+    "type": "exercise",
     "prompt": "(9) Rhythmic Review",
     "lines": [
       "Two of the boys are to do it today and two of them next week."

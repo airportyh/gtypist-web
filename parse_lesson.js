@@ -8,29 +8,50 @@ fs.readFile(file, function(err, data){
   var lines = text.split('\n')
   //console.log('# of lines', lines.length)
   var exercises = []
-  var exercise = null
+  var reading = null
+  var prompt = null
+  var exeLines = null
   lines.forEach(function(line){
     var m
     if (line.match(/^\s*\#/)){
       // ignore comments
     }else if (line.match(/^\s*$/)){
-      if (exercise){
-        exercises.push(exercise)
-        exercise = null
+      // empty line signals end of section
+      if (prompt && exeLines){
+        exercises.push({
+          type: 'exercise',
+          prompt: prompt,
+          lines: exeLines
+        })
+        prompt = null
+        exeLines = null
+        reading = null
+      }else if (reading){
+        exercises.push({
+          type: 'text',
+          text: reading
+        })
+        prompt = null
+        exeLines = null
+        reading = null
       }
       // ignore empty lines
     }else if (m = line.match(/^I\:(.+)$/)){
-      exercise = {
-        prompt: m[1],
-        lines: []
-      }
+      prompt = m[1]
     }else if (m = line.match(/^D\:(.+)$/)){
-      if (!exercise) return
-      exercise.lines.push(m[1])
+      exeLines = [m[1]]
     }else if (m = line.match(/^ :(.+)$/)){
-      if (!exercise) return
-      exercise.lines.push(m[1])
+      if (exeLines){
+        exeLines.push(m[1])
+      }else if (reading){
+        reading += '\n' + m[1]
+      }else if (exeLines){
+        prompt += '\n' + m[1]
+      }
+    }else if (m = line.match(/^T\:(.*)$/)){
+      reading = m[1] || '\n'
     }else{
+      // ignore
       //console.log(line)
     }
   })
