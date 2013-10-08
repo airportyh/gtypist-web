@@ -5,7 +5,6 @@ var PageView = require('./page_view')
 module.exports = LessonView
 function LessonView(lesson){
   lesson = lesson.pages
-  var prompt
   var exerciseView
   var element = h('div')
 

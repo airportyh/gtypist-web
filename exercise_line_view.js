@@ -1,6 +1,7 @@
 var E = require('emmitt')
 var h = require('hyperscript')
-var hasClass = require('./hasclass')
+var isHidden = require('./ishidden')
+var styles = require('barber').styleSheet('gtypist')
 
 module.exports = ExerciseLineView
 function ExerciseLineView(line){
@@ -8,16 +9,18 @@ function ExerciseLineView(line){
   var display
   var textarea
   var checkmark
-  var element = h('div', 
+  var element = h('div.exercise-line-view', 
     display = h('pre', line),
-    checkmark = h('span.checkmark.hide', '   \u2713'),
-    textarea = h('input', {
-      'className': 'textarea',
+    checkmark = h('span.checkmark', '   \u2713'),
+    textarea = h('input.textarea', {
       'type': 'text',
       'spellcheck': false,
       'disabled': true
     })
   )
+
+  isHidden(checkmark, !okToAdvance())
+
   E.on(textarea, 'keydown', onKeyDown)
   E.on(textarea, 'keyup', onKeyUp)
 
@@ -37,7 +40,7 @@ function ExerciseLineView(line){
   }
 
   function onKeyUp(e){
-    hasClass(checkmark, 'hide', !okToAdvance())
+    isHidden(checkmark, !okToAdvance())
   }
 
   function textMatches(){
@@ -62,3 +65,29 @@ function ExerciseLineView(line){
 
   return view
 }
+
+styles.add('.exercise-line-view .checkmark', {
+  color: 'green'
+})
+
+styles.add('.exercise-line-view .textarea, .exercise-line-view pre', {
+  fontFamily: 'monaco, monospace', 
+  fontSize: '1em',
+  width: '100%'
+})
+
+styles.add('.exercise-line-view .textarea', {
+  background: 'yellow',
+  border: '0px none'
+})
+
+styles.add('.exercise-line-view .textarea:disabled', {
+  background: 'gray'
+})
+
+styles.add('.exercise-line-view pre', {
+  display: 'inline',
+  margin: '0px',
+  border: '1px solid white'
+})
+

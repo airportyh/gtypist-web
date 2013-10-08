@@ -1,12 +1,13 @@
 var E = require('emmitt')
 var h = require('hyperscript')
 var ExerciseLineView = require('./exercise_line_view')
+var styles = require('barber').styleSheet('exercise-view')
 
 module.exports = ExerciseView
 function ExerciseView(exercise){
   
   var prompt = h('label', exercise.prompt)
-  var element = h('div', prompt)
+  var element = h('div.exercise-view', prompt)
   var lineViews = []
   var currentLine = 0
   var view = {
@@ -47,3 +48,7 @@ function ExerciseView(exercise){
   return view
 
 }
+
+styles.add('.exercise-view label', {
+  fontSize: '1.2em'
+})

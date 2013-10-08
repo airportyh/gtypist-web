@@ -5,7 +5,8 @@
   "dependencies": {
     "hyperscript": "~1.2.1",
     "emmitt": "~0.0.2",
-    "async": "~0.2.9"
+    "async": "~0.2.9",
+    "barber": "0.0.6"
   },
   "devDependencies": {},
   "repository": {

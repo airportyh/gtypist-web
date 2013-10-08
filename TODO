@@ -7,7 +7,6 @@ TODO
 4. Calculate and display "Raw speed wpm" and "Adjusted speed (minus errors) wpm" and other stats.
 5. Calculate error rate and reject if error rate is too high.
 6. Real URLs/routing.
-7. Merge all the CSS into the widgets themselves.
 8. ASCII art in the HTML.
 9. Make it look nice.
 9. Publish it.
