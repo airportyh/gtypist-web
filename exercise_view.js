@@ -1,7 +1,7 @@
 var E = require('emmitt')
 var h = require('hyperscript')
 var ExerciseLineView = require('./exercise_line_view')
-var styles = require('barber').styleSheet('exercise-view')
+var styles = require('barber').styleSheet('gtypist')
 
 module.exports = ExerciseView
 function ExerciseView(exercise){
