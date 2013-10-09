@@ -1,0 +1,45 @@
+{
+  "type": "index",
+  "lessons": [
+    {
+      "title": "Quick QWERTY",
+      "name": "q"
+    },
+    {
+      "title": "Long QWERTY",
+      "name": "r"
+    },
+    {
+      "title": "QWERTY touch",
+      "name": "t"
+    },
+    {
+      "title": "Yet more",
+      "name": "v"
+    },
+    {
+      "title": "OWERTY",
+      "name": "u"
+    },
+    {
+      "title": "Dvorak touch",
+      "name": "d"
+    },
+    {
+      "title": "Colemak touch",
+      "name": "c"
+    },
+    {
+      "title": "Typing drills",
+      "name": "m"
+    },
+    {
+      "title": "Speed drills",
+      "name": "s"
+    },
+    {
+      "title": "Calculator keypad",
+      "name": "n"
+    }
+  ]
+}

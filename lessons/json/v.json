@@ -1,1122 +1,1243 @@
 {
   "title": "Yet more",
-  "pages": [
+  "id": "v",
+  "type": "lesson",
+  "lessons": [
+    {
+      "type": "lesson",
+      "title": "Lesson V1",
+      "pages": [
+        {
+          "type": "text",
+          "title": "Lesson\tV1",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1)",
+          "lines": [
+            "r r r r frf frf frf u u u u juj juj juj juj",
+            "frf juj frf juj frf juj frf juj frf juj frf juj"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2)",
+          "lines": [
+            "fff jjj fff jjj fff jjj fff jjj fff jjj fff jjj",
+            "fff jjj fff jjj fff jjj fff jjj fff jjj fff jjj",
+            "fru fru fru jur jur jur ruj ruj ruj urf urf urf",
+            "fru fru fru ruf ruf ruf urj urj urj fuj fuj fuj",
+            "urf urf urf juf juf juf fuj fuj fuj fru fru fru",
+            "fur fur fur ruf ruf ruf urf urf urf jur jur jur"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V2",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(D K E I)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "fff jjj fff jjj fff jjj fff jjj fff jjj fff jjj",
+            "frf juj frf juj frf juj frf juj frf juj frf juj",
+            "fur fur fur ruf ruf ruf jur jur jur ruj ruj ruj",
+            "urj urj urj juf juf juf fuj fuj fuj fur fur fur"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2) New Key Control",
+          "lines": [
+            "d d d d ddd ddd ddd ddd k k k k kkk kkk kkk kkk",
+            "ddd kkk ddd kkk ddd kkk ddd kkk ddd kkk ddd kkk"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(3)",
+          "lines": [
+            "e e e e ded ded ded ded ded i i i i kik kik kik",
+            "ded kik ded kik ded kik ded kik ded kik ded kik"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(4)",
+          "lines": [
+            "did did did ire ire ire rid rid rid eke eke eke",
+            "rid rid rid eke eke eke ire ire ire did did did",
+            "kid kid kid fee fee fee red red red fir fir fir",
+            "red red red fir fir fir fee fee fee kid kid kid"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5)",
+          "lines": [
+            "free free free juke juke juke fire fire fire juke",
+            "fire fire fire juke juke juke free free free juke",
+            "deer deer deer rude rude rude dire dire dire ride",
+            "rude rude rude dire dire dire deer deer deer ride"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(6)",
+          "lines": [
+            "fired fired fired rider rider rider freed freed",
+            "rider rider rider freed freed freed fired fired",
+            "did red ire fee rid deer rude fire feed juke rider",
+            "rid fee ire red did juke fire rude juke deed freed"
+          ]
+        }
+      ]
+    },
     {
-      "type": "text",
-      "title": "Lesson\tV1",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1)",
-      "lines": [
-        "r r r r frf frf frf u u u u juj juj juj juj",
-        "frf juj frf juj frf juj frf juj frf juj frf juj"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2)",
-      "lines": [
-        "fff jjj fff jjj fff jjj fff jjj fff jjj fff jjj",
-        "fff jjj fff jjj fff jjj fff jjj fff jjj fff jjj",
-        "fru fru fru jur jur jur ruj ruj ruj urf urf urf",
-        "fru fru fru ruf ruf ruf urj urj urj fuj fuj fuj",
-        "urf urf urf juf juf juf fuj fuj fuj fru fru fru",
-        "fur fur fur ruf ruf ruf urf urf urf jur jur jur"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(D K E I)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "fff jjj fff jjj fff jjj fff jjj fff jjj fff jjj",
-        "frf juj frf juj frf juj frf juj frf juj frf juj",
-        "fur fur fur ruf ruf ruf jur jur jur ruj ruj ruj",
-        "urj urj urj juf juf juf fuj fuj fuj fur fur fur"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2) New Key Control",
-      "lines": [
-        "d d d d ddd ddd ddd ddd k k k k kkk kkk kkk kkk",
-        "ddd kkk ddd kkk ddd kkk ddd kkk ddd kkk ddd kkk"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(3)",
-      "lines": [
-        "e e e e ded ded ded ded ded i i i i kik kik kik",
-        "ded kik ded kik ded kik ded kik ded kik ded kik"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(4)",
-      "lines": [
-        "did did did ire ire ire rid rid rid eke eke eke",
-        "rid rid rid eke eke eke ire ire ire did did did",
-        "kid kid kid fee fee fee red red red fir fir fir",
-        "red red red fir fir fir fee fee fee kid kid kid"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5)",
-      "lines": [
-        "free free free juke juke juke fire fire fire juke",
-        "fire fire fire juke juke juke free free free juke",
-        "deer deer deer rude rude rude dire dire dire ride",
-        "rude rude rude dire dire dire deer deer deer ride"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(6)",
-      "lines": [
-        "fired fired fired rider rider rider freed freed",
-        "rider rider rider freed freed freed fired fired",
-        "did red ire fee rid deer rude fire feed juke rider",
-        "rid fee ire red did juke fire rude juke deed freed"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(T Y G H)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "fff jjj ddd kkk frf juj ded kik fff jjj ddd kkk",
-        "frf juj ded kik fur fur kid kid red red ire ire",
-        "kid kid kid juke juke juke dire dire dire fire",
-        "rid rid rid rude rude rude ride ride ride feed"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2) T and Y",
-      "lines": [
-        "t t t t ftf ftf ftf ftf y y y y jyj jyj jyj jyj",
-        "ftf jyj ftf jyj ftf jyj ftf jyj ftf jyj ftf jyj"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(3) G and H",
-      "lines": [
-        "g g g g fgf fgf fgf fgf h h h h jhj jhj jhj jhj",
-        "fgf jhj fgf jhj fgf jhj fgf jhj fgf jhj fgf jhj"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(4) Word Drill",
-      "lines": [
-        "hit hit hit hit hit hit get get get get get get",
-        "yet yet yet yet yet yet try try try try try try"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5)",
-      "lines": [
-        "the the the try try try get get get yet yet yet",
-        "try try try the the the yet yet yet get get get",
-        "key key key jit hit hit tie tie tie kit kit kit",
-        "tie tie tie kit kit kit key key key hit hit hit"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(6)",
-      "lines": [
-        "here here here they they they true true true",
-        "they they they true true true here here here",
-        "there there there fruit fruit fruit right right right",
-        "fruit fruit fruit right right right there there there"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(7)",
-      "lines": [
-        "third third third tired tired tired urged urged urged",
-        "tired tired tired urged urged urged third third third",
-        "truth truth truth their their their dried dried dried",
-        "their their their dried dried dried truth truth truth"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(8)",
-      "lines": [
-        "did they get the right dried fruit there yet",
-        "did they get the right dried fruit there yet"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(S L W O)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "frf juj ded kik ftf jyj fgf jhj frf juj ded kik",
-        "ded kik ftf jyj fgf jhj frf juj ded kik ftf jyj"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2) S and L",
-      "lines": [
-        "s s s s sss sss sss sss l l l l lll lll lll lll",
-        "sss lll sss lll sss lll sss lll sss lll sss lll"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(3) W and O",
-      "lines": [
-        "w w w w sws sws sws sws o o o o lol lol lol lol",
-        "sws lol sws lol sws lol sws lol sws lol sws lol"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(4) Words Drill",
-      "lines": [
-        "sow sow sow sow sow sow low low low low low low",
-        "row row row row row row how how how how how how"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5)",
-      "lines": [
-        "is is is so so so of of of do do do go go go to to to",
-        "go go go to to to do do do of of of so so so is is is",
-        "too too too low low low set set set wit wit wit wit",
-        "sit sit sit lit lit lit wit wit wit low low low low"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(6)",
-      "lines": [
-        "wool wool wool suit suit suit full full full wood wood",
-        "hole hole hole wool wool wool suit suit suit good good",
-        "style style style order order order those those",
-        "loose loose loose style style style order order",
-        "desire desire desire rulers rulers rulers worker",
-        "worker worker worker desire desire desire rulers"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(7)",
-      "lines": [
-        "hold your wrists low while you strike the keys",
-        "we desire the right goods for our wool suits",
-        "if you will go with us you will see the fleet",
-        "we will try to fill your order for the wool suits",
-        "if we get the right goods we will fill your order"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(A ; Q P)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "frf juj ded kik ftf jyj fgf jhj frf juj ftf jyj fgf jhj",
-        "ded kik sws lol ded kik sws lol frf juj ftf jyj fgf jhj"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2) A and ;",
-      "lines": [
-        "a a a a aaa aaa aaa aaa ; ; ; ; ;;; ;;; ;;; ;;;",
-        "aaa ;;; aaa ;;; aaa ;;; aaa ;;; aaa ;;; aaa ;;;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(3) Q and P",
-      "lines": [
-        "q q q q aqa aqa aqa aqa p p p p ;p; ;p; ;p; ;p;",
-        "aqa ;p; aqa ;p; aqa ;p; aqa ;p; aqa ;p; aqa ;p;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(4) Word Drill",
-      "lines": [
-        "pa; pa; pa; pa; pa; pa; up; up; up; up; up; up;",
-        "pa; pa; pa; pa; pa; pa; up; up; up; up; up; up;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5)",
-      "lines": [
-        "quay quay quay quay quay quip quip quip quip quip",
-        "quay quay quay quay quay quip quip quip quip quip"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(6)",
-      "lines": [
-        "apt apt apt; put put put; sip sip sip; hip hip hip;",
-        "sip sip sip; hip hip hip; apt apt apt; put put put;",
-        "quip quip quip; quit quit quit; aqua aqua aqua;",
-        "aqua aqua aqua; quip quip quip; quit quit quit;",
-        "paid paid paid; pair pair pair; pass pass pass;",
-        "pair pair pair; pass pass pass; paid paid paid;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(7)",
-      "lines": [
-        "quote quote quote; paper paper paper; quite quite;",
-        "paper paper paper; quite quite quite; quote quote;",
-        "prefer prefer prefer; prepay prepay prepay; quires;",
-        "prepay prepay prepay; prefer prefer prefer; quires;",
-        "postage postage postage; quarter quarter quarter;",
-        "poultry poultry poultry; quality quality quality;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(8)",
-      "lines": [
-        "two quires of high quality paper were shipped today;",
-        "we shall pay you well to prepare the reports for us;",
-        "we quote a low figure for our high quality paper;",
-        "we prefer to prepay the postage for the two quires;"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(Shift Keys for Capitalization)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
-        "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj",
-        "he will pay jed squire for the sugar this week;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2) Capital Letter Drill",
-      "lines": [
-        "F F F F F F Fa Fa Fa Fa Fa Fa Fay Fay Fay Fay Fay Fay",
-        "J J J J J J Ja Ja Ja Ja Ja Ja Jay Jay Jay Jay Jay Jay",
-        "R R R R R R Ra Ra Ra Ra Ra Ra Ray Ray Ray Ray Ray Ray",
-        "H H H H H H Ha Ha Ha Ha Ha Ha Hal Hal Hal Hal Hal Hal"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(3)",
-      "lines": [
-        "Kay Kay Kay; Joe Joe Joe; Alf Alf Alf; Lou Lou Lou;",
-        "Joe Joe Joe; Kay Kay Kay; Lou Lou Lou; Alf Alf Alf;",
-        "Dora Dora Dora; Ella Ella Ella; Pete Pete Pete;",
-        "Sara Sara Sara; Lola Lola Lola; Will Will Will;",
-        "Garry Garry Garry; Harry Harry Harry; Paula Paula;",
-        "Harry Harry Harry; Taffy Taffy Taffy; Quail Quail;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(4)",
-      "lines": [
-        "Uriah Uriah Uriah; Yetta Yetta Yetta; Ollie Ollie;",
-        "Yetta Yetta Yetta; Ollie Ollie Ollie; Uriah Uriah;",
-        "Walter Walter Walter; Esther Esther Esther; Isaiah;",
-        "Esther Esther Esther; Walter Walter Walter; Isaiah;",
-        "Arthur Arthur Arthur; Lester Lester Lester; Quezon;",
-        "Quezon Quezon Quezon; Arthur Arthur Arthur; Philip;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5)",
-      "lines": [
-        "Joseph likes to study; Joseph likes to study art;",
-        "Esther will write; Esther will write Larry today;",
-        "Arthur likes; Arthur likes to play the flute;",
-        "Kate says; Kate says she will stay till Friday;",
-        "Paul will take Willa to the Park Sherry Theater;"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(Shift Lock and :)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
-        "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2) Shift Lock Drill",
-      "lines": [
-        "It is GOOD WORK; It is GOOD WORK; It is GOOD WORK;",
-        "It is GOOD WORK; It is GOOD WORK; It is GOOD WORK;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(3)",
-      "lines": [
-        "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
-        "The TITLE of the REPORT is:  HOUSES FOR SALE",
-        "The TITLE of the REPORT is:  HOUSES FOR SALE",
-        "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj",
-        "We quote LOW FIGURES for HIGHEST QUALITY paper;",
-        "We quote LOW FIGURES for HIGHEST QUALITY paper;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(4)",
-      "lines": [
-        "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
-        "The PARK POSTER reads:  KEEP OFF THE GRASS",
-        "The PARK POSTER reads:  KEEP OFF THE GRASS",
-        "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj",
-        "Paul quoted the old adage:  THE THRIFTY ARE WISE",
-        "Paul quoted the old adage:  THE THRIFTY ARE WISE"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5)",
-      "lines": [
-        "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
-        "GOOD WORK will lead to a HAPPY LIFE for you;",
-        "GOOD WORK will lead to a HAPPY LIFE for you;",
-        "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj",
-        "The DAILY DRILLS will HELP YOU type with EASE;",
-        "The DAILY DRILLS will HELP YOU type with EASE;"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
-        "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj",
-        "He will pay Jed Squire for the sugar this week;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2) The Period",
-      "lines": [
-        ". . . . . . l.l l.l l.l l.l l.l l.l l.l l.l l.l",
-        "Hit it lightly.  Hit it lightly.  Hit it lightly.",
-        "Hit it lightly.  Hit it lightly.  Hit it lightly."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(4) Keyboard Review",
-      "lines": [
-        "for fat few fur foe fit fed fee for fat fir few fro;",
-        "fro few fir fat for fee fig foe fop fit fur fat fad;",
-        "jug jig jut jar joy jag jaw jar jet jot jog jug joy;",
-        "joy jug jog jag jaw jot jig jut jar jig jaw jog jet;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5)",
-      "lines": [
-        "rye rut row red rip ray rap rug rig rut rye rug rot;",
-        "rot rye rut row red rip rat rap rug rig rut rye rug;",
-        "up us use uses urge ugly usage upper uproar upright;",
-        "us up use urge uses urge urges udder utters upstart;"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(V and M)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
-        "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj",
-        "I will pay Joe Quig for the sugar today."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2) New Keys (V, M)",
-      "lines": [
-        "v v v v fvf fvf fvf fvf m m m m jmj jmj jmj jmj",
-        "fvf jmj fvf jmj fvf jmj fvf jmj fvf jmj fvf jmj"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(3)",
-      "lines": [
-        "over over over; gave gave gave; have have have;",
-        "home home home; seem seem seem; time time time;",
-        "ever ever ever; more more more; item item item;",
-        "live live live; vast vast vast; five five five;",
-        "You must devote more time to your daily work.",
-        "You should go over every item with more thought."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5) Exercises on G, H, T, and Y",
-      "lines": [
-        "go got get gas gag gap gay gig gray greed great;",
-        "go gig gay gap gas gag get gas gray great greed;",
-        "her has had his hit hot hut hat hay hag had his;",
-        "his had hag hay hat hut hot hit his had has her;"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
-        "fgf jhj fvf jmj fgf jhj fvf jmj fgf jhj fvf jmj",
-        "Paul Quigs will devote more time to his work."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2) New Keys",
-      "lines": [
-        "b b b b fbf fbf fbf fbf n n n n jnj jnj jnj jnj",
-        "fbf jnj fbf jnj fbf jnj fbf jnj fbf jnj fbf jnj"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(3) Word Drill",
-      "lines": [
-        "bin bin bin bin bin bin nib nib nib nib nib nib",
-        "big big big big big big now now now now now now"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(4)",
-      "lines": [
-        "bun bun bun; nip nip nip; fib fib fib; win win win;",
-        "fib fib fib; win win win; bun bun bun; nip nip nip;",
-        "bent bent bent; nine nine nine; vent vent vent;",
-        "mend mend mend; vine vine vine; blow blow blow;",
-        "We require more time to turn out a very good job.",
-        "Be prompt.  Never shirk.  Make promptness a habit."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(6) Words with D, E, K, and I",
-      "lines": [
-        "do dot due dye day dew dab den dim dog die dig dry dip",
-        "do dig dry dip die dog dim dab den dew day dye due dot",
-        "ebb eke err eve end egg ever even edge earn east evil",
-        "err eke eve end ebb eel evil east earn edge envy easy"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(7)",
-      "lines": [
-        "kid kin kit keg key king kind know knee knot knew",
-        "key keg kid kit kin knew knot knee knob king kind",
-        "it is in if ire ill ink inn imp idle item isle iron",
-        "if in is it imp inn ill ire ink item idle iron isle"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(C and Comma)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
-        "fvf jmj fbf jnj fvf jmj fbf jnj fvf jmj fbf jnj",
-        "The Ben Mavis firm submitted the lowest quotation."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2) New Key Review",
-      "lines": [
-        "c c c c dcd dcd dcd dcd , , , , k,k k,k k,k k,k",
-        "dcd k,k dcd k,k dcd k,k dcd k,k dcd k,k dcd k,k"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(3) Word Drill",
-      "lines": [
-        "can, can, can, can, can, cue, cue, cue, cue, cue,",
-        "can, can, can, can, can, cue, cue, cue, cue, cue,"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(4)",
-      "lines": [
-        "cash, cash, cash, lack, lack, lack, lace, lace, lace,",
-        "lack, lack, lack, lace, lace, lace, cash, cash, cash,",
-        "could, could, could, clerk, clerk, clerk, camp, camp,",
-        "clerk, clerk, clerk, could, could, could, cane, cane,"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5)",
-      "lines": [
-        "If you call before five, the bank will cash your check.",
-        "Charles Condon, sales manager, was in complete charge.",
-        "He may, if convenient, have it charged to his account."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(7)",
-      "lines": [
-        "sub sum see sun set sit sin sip she ship shall shame",
-        "sit sin sip set sub sum see sod sob slip sweep super",
-        "won win who why wet was weak wear west well what when",
-        "was wet why who win won what well wear west when what"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(8)",
-      "lines": [
-        "lad lid lot let log lie lag lug lip last sate sawn",
-        "lip lag lug lie log let lot lid lad land lane last",
-        "own out owl old one oak out oil off over oven open",
-        "off oil out oak one old owl our own open ours over"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(X and .)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "frf juj ftf jyj fgf jhj fvf jmj fbf jnj fvf jmj",
-        "ded kik sws lol aqa ;p; dcd k,k dcd k,k fvf jmj"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2)",
-      "lines": [
-        "touch...learn...above...typing...talent...",
-        "average...special...that is...You do......",
-        "You do not"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(4) New Key Tryout",
-      "lines": [
-        "x x x x sxs sxs sxs sxs . . . . l.l l.l l.l l.l",
-        "sxs l.l sxs l.l sxs l.l sxs l.l sxs l.l sxs l.l"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5) Word Drill",
-      "lines": [
-        "six six six six six six etc. etc. etc. etc. etc.",
-        "six six six six six six etc. etc. etc. etc. etc."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(6)",
-      "lines": [
-        "fixes fixes fixes; mixes mixes mixes; taxes taxes;",
-        "mixes mixes mixes; fixes fixes fixes; boxes boxes;",
-        "expert expert expert; expect expect expect; excels;",
-        "exceed exceed exceed; excuse excuse excuse; excels;",
-        "Dr. Lux, tax expert, will examine the tax returns.",
-        "Mr. Cox examined the mixture with extreme care."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(8) Drill on A, Q, ;, P",
-      "lines": [
-        "act ant and ask apt any art all age anle acid aged",
-        "age all art any ask act add axe ant aged able acid",
-        "quit quip quote quite queer queen quack quaint quorum",
-        "quip quit quite quote queen queer quail quorum quaint",
-        "pin pup put; pull palm pant; pint pile push; punch;",
-        "put pin pup; pant pull palm; push pick pile; paper;"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(Z and /)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
-        "fvf jmj fbf jnj dcd k,k sxs l.l dcd k,k sxs l.l"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2)",
-      "lines": [
-        "touch...learn...above...typing...talent...average",
-        "special...lessons...you do...for you...is the",
-        "do the...of the...in this"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(4) New Key Tryout",
-      "lines": [
-        "z z z z aza aza aza aza / / / / ;/; ;/; ;/; ;/;",
-        "aza ;/; aza ;/; aza ;/; aza ;/; aza ;/; aza ;/;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5) Word Drill",
-      "lines": [
-        "zip zip zip zip zip c/o c/o c/o c/o c/o c/o",
-        "zip zip zip zip zip c/o c/o c/o c/o c/o c/o"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(8)",
-      "lines": [
-        "bag big bug bit bud bed bid bun bale bend bank bask",
-        "but bid bed bun bid big bag bud bask bale band bank",
-        "not now nut nor note nose none nude noun nine nest",
-        "now not nor nut nose note nude none nine nest next"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(9)",
-      "lines": [
-        "vim vet van vex vet vast vote veto vase vine vial",
-        "van vex vet vim vex vial vine vase veto vote vast",
-        "man mix mat mad made mail main make mark mask mine",
-        "mad met mix men mask mark made main male made mint"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(The Question Mark)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
-        "fvf jmj fbf jnj dcd k,k sxs l.l aza ;/; aza ;/;",
-        "Liza quickly mixed the very big jar of new soap."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2)",
-      "lines": [
-        "touch...learn...above...aside...typing",
-        "talent...amount...average...special...",
-        "lessons...definite...is the...of the",
-        "for you...you do...that is...in this",
-        "you do not"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(4) New Key Tryout",
-      "lines": [
-        "? ? ? ? ? ? Who?  Who?  Who?  Who?  Who?  Who?",
-        "? ? ? ? ? ? Why?  Why?  Why?  Why?  Why?  Why?"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5)",
-      "lines": [
-        "How much?  How many?  How soon?  How early?  How fast?",
-        "How many?  How much?  How fast?  How large?  How soon?",
-        "Where is Max?  Where is Mary?  What is Cora sewing?",
-        "Where is Sam?  Where is Paul?  What is Zeke fixing?",
-        "Can Max swim?  Can he dance?  Can he play tennis?",
-        "Can he dance?  Does he swim?  Do you like tennis?"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(6)",
-      "lines": [
-        "Did you open the mail?  Did you read the note?",
-        "Did you read the note?  Did you open the mail?",
-        "Can Van do the work?  Will he require aid?  Who knows?",
-        "Can Jim complete it?  Is he quite capable?  Who knows?"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(8)",
-      "lines": [
-        "lax vex six tax fix taxed fixing mixing taxing vexing",
-        "fix tax vex lax six fixed vexing taxing fixing mixing",
-        "zip zoo zest zeal zinc zero lazy zone zoom zinc zealot",
-        "zoo zip zoom zone lazy zinc zeal zest zero zone zealot"
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(1, 4, 5, 6, 7)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
-        "fvf jmj fbf jnj dcd k,k sxs l.l aza ;/; aza ;/;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2)",
-      "lines": [
-        "touch...learn...above...aside...typing",
-        "talent...amount...follow...easily...become",
-        "typist...average...special...lessons...definite",
-        "exactly...quickly...surprised...is the...",
-        "of the...in the...in this...for you...",
-        "you will...you will be"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5) 4 and 7",
-      "lines": [
-        "f4f f4f f4f f4f f4f f4f j7j j7j j7j j7j j7j j7j",
-        "f4f j7j f4f j7j f4f j7j f4f j7j f4f j7j f4f j7j",
-        "or 4 or 4 or 4 ru 7 ru 7 ru 7 or 4 ru 7 or 4 ru 7",
-        "or 4 ru 7 or 4 ru 7 or 4 ru 7 or 4 ru 7 or 4 ru 7"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(6)",
-      "lines": [
-        "June 1; July 4; April 7; January 4; March 17, 1741",
-        "July 4; June 1; March 4; October 7; April 14, 1471",
-        "What is the sum of 11 and 7 and 4 and 1 and 714?",
-        "What is the sum of 17 and 4 and 7 and 1 and 174?"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(7)",
-      "lines": [
-        "Florence is 7 years 14 months and 17 days old today.",
-        "Veronica is 4 years 11 months and 14 days old today.",
-        "Your order of November 14 was shipped on December 17.",
-        "Your order of December 11 was shipped on February 14.",
-        "Policy No. 141174 will expire on Monday, November 14.",
-        "Policy No. 471714 will expire on Friday, December 17."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(10) 5 and 6",
-      "lines": [
-        "f5f f5f f5f f5f f5f f5f j6j j6j j6j j6j j6j j6j",
-        "f5f j6j f5f j6j f5f j6j f5f j6j f5f j6j f5f j6j",
-        "if 5 by 6 if 5 by 6 if 6 by 6 if 5 by 6 if 5 by 6",
-        "if 5 by 6 if 5 by 6 if 6 by 6 if 5 by 6 if 5 by 6"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(11)",
-      "lines": [
-        "f4f j7j f5f j6j f4f j7j f5f j6j f4f j7j f5f j6j",
-        "15 lbs. coffee; 16 doz. eggs; 56 boxes oranges;",
-        "65 lbs. coffee; 14 doz. eggs; 75 boxes oranges;",
-        "or 4 ru 7 it 5 my 6 or 4 ru 7 it 5 my 6 147 156",
-        "The Barton Market is at 516 West 147th Street.",
-        "The Baxter Market is at 165 East 165th Street."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(12)",
-      "lines": [
-        "fr4 ju7 ft5 jy6 f4f j7j f5f j6j f4f j7j f5f j6j",
-        "Robert Fulton was born in Pennsylvania in 1765.",
-        "William Penn, English Quaker, was born in 1644.",
-        "or 4 ru 7 it 5 by 6 or 4 ru 7 it 5 by 6 174 516",
-        "The sum of 15 and 51 and 65 and 41 and 475 is 647.",
-        "The sum of 51 and 15 and 56 and 14 and 475 is 611."
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(3 and 8)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "f4f j7j f5f j6j f4f j7j f5f j6j f4f j7j f5f j6j",
-        "417 147 517 157 617 167 617 171 714 471 651 174"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2)",
-      "lines": [
-        "never...typing...office...become...getting...",
-        "acquire...efforts...valuable...personal...",
-        "possible...business...shorthand...it is...",
-        "it can...to it...in the...to use...to have",
-        "if you...from you...why not"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5) New Key Tryout",
-      "lines": [
-        "d3d k8k d3d k8k d3d k8k d3d k8k d3d k8k d3d k8k",
-        "131 313 311 181 818 381 381 381 183 138 318 813",
-        "bid 3 bid 3 bid 3 bid 3 oak 8 oak 8 oak 8 oak 8",
-        "bid 3 bid 3 bid 3 bid 3 oak 8 oak 8 oak 8 oak 8"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(6)",
-      "lines": [
-        "d3d k8k d3d k8k d3d k8k d3d k8k 318 813 138 813 381",
-        "13 lbs. lamb roast; 38 lbs. lamb chops; 8 lbs. bananas;",
-        "31 lbs. lamb chops; 83 lbs. lamb roast; 3 lbs. peaches;",
-        "lie 3 dye 3 pie 3 dye 3 Fiji 8 Fiji 8 Fiji 8",
-        "18 cans grape juice; 138 cans prune juice; 4 lbs. coffee;",
-        "47 cans prune juice; 143 cans grape juice; 8 lbs. onions;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(7)",
-      "lines": [
-        "d3d k8k d3d k8k d3d k8k 183 381 813 318 138 381",
-        "8 lbs. Swiss Cheese; 13 lbs. Kraft Cheese; 4 lbs. pears;",
-        "5 lbs. Kraft Cheese; 17 lbs. Swiss Cheese; 6 lbs. beans;",
-        "pie 3 dye 3 pie 3 dye 3 Fiji 8 Fiji 8 Fiji 8 Fiji 8",
-        "The sum of 13 and 83 and 153 and 75 and 47 is 371.",
-        "The sum of 47 and 75 and 153 and 83 and 13 is 371."
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(2 and 9)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "f4f j7j f5f j6j d3d k8k f4f j7j f5f j6j d3d k8k",
-        "or4 ru7 it5 by6 ie3 ok8 or4 ru7 it5 by6 ie3 ok8",
-        "The sum of 14 and 16 and 53 and 58 and 174 is 315."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2)",
-      "lines": [
-        "strike...center...finger...spring...though...",
-        "expert...sharply...release...quickly...develop...",
-        "letting...squarely...practice...familiar...",
-        "fingertip...important...technique...releasing...",
-        "instantly...it is...do it...do this...with the...",
-        "you get."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5) New Key Tryout",
-      "lines": [
-        "s2s s2s s2s s2s s2s s2s l9l l9l l9l l9l l9l l9l",
-        "s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l",
-        "bow 2 bow 2 bow 2 bow 2 two 9 two 9 two 9 two 9",
-        "bow 2 two 9 bow 2 two 9 bow 2 two 9 bow 2 two 9"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(6)",
-      "lines": [
-        "s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l",
-        "12 lbs. coffee; 19 lbs. Cottage Cheese; 9 lbs. peaches;",
-        "19 lbs. apples; 29 lbs. Cheddar Cheese; 2 lbs. bananas;",
-        "low 2 fro 9 low 2 fro 9 low 2 fro 9 low 2 fro 9 29 192;",
-        "9 lbs. Smoked Tongue; 2 lbs. tomatoes; 9 lbs. avocados;",
-        "2 lbs. Cooked Tongue; 9 lbs. avocados; 2 lbs. tomatoes;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(7)",
-      "lines": [
-        "s2s l9l s2s l9l 219 921 192 s2s l9l s2s 191 291 129",
-        "The sum of 29 and 86 and 33 and 92 and 52 is 292.",
-        "The sum of 52 and 92 and 86 and 33 and 29 is 292.",
-        "ow 2 to 9 ow 2 to 9 we 23 ok 98 we 23 ok 98 s2s l9l",
-        "George Washington was born on February 22, 1732.",
-        "Horatio Alger was born in 1834 and died in 1899."
-      ]
-    },
-    {
-      "type": "text",
-      "title": "(0 and the Hyphen)",
-      "text": ""
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "f4f j7j f5f j6j d3d k8k s2s l9l f4f j7j f5f j6j",
-        "s2s l9l d3d k8k f4f j7j f5f j6j f4f j7j f5f j6j",
-        "The sum of 47 and 65 and 38 and 92 and 16 equals 258."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2)",
-      "lines": [
-        "expert...typing...margin...always...before...",
-        "permits...others...reached...equipped...machines...",
-        "carriage...typewriter...approaching...you are...",
-        "of the...for the...on the...you may...before the"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(5) New Key Tryout",
-      "lines": [
-        ";0; ;0; ;0; ;0; ;0; ;0; ;-; ;-; ;-; ;-; ;-; ;-;",
-        ";0; ;-; ;0; ;-; ;0; ;-; ;0; ;-; ;0; ;-; ;0; ;-;",
-        "10-room; 10-room; 10-room; 10-room; 10-room;",
-        "20-room; 20-room; 20-room; 20-room; 20-room;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(6)",
-      "lines": [
-        "f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;",
-        "one-half; one-fourth; one-eighth; three-quarters;",
-        "one-half; two-thirds; one-fourth; three-sevenths;",
-        "f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;",
-        "20-room house; 30-room house; 40-room house;",
-        "50-room house; 60-room house; 70-room house;"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(7)",
-      "lines": [
-        "f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;",
-        "One-fourth may be typewritten like this:  1/4.",
-        "One-eighth may be typewritten like this:  1/8.",
-        "f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;",
-        "Every expert was once a beginner--with ambition.",
-        "Every expert was once a beginner--with ambition."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(1) Warmup",
-      "lines": [
-        "f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;",
-        "s2s l9l ;-; ;=; d3d k8k f4f j7j ;0; ;-; ;0; ;-;",
-        "Max Zale made a long-distance flight of 2,590 miles."
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "(2)",
-      "lines": [
-        "called...fourth...typing...letter...always...",
-        "capital...holding...depress...fingers...release...",
-        "touching...slightly...position...right-hand...of the",
-        "for the...all the...with the...you have"
-      ]
+      "type": "lesson",
+      "title": "Lesson V3",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(T Y G H)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "fff jjj ddd kkk frf juj ded kik fff jjj ddd kkk",
+            "frf juj ded kik fur fur kid kid red red ire ire",
+            "kid kid kid juke juke juke dire dire dire fire",
+            "rid rid rid rude rude rude ride ride ride feed"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2) T and Y",
+          "lines": [
+            "t t t t ftf ftf ftf ftf y y y y jyj jyj jyj jyj",
+            "ftf jyj ftf jyj ftf jyj ftf jyj ftf jyj ftf jyj"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(3) G and H",
+          "lines": [
+            "g g g g fgf fgf fgf fgf h h h h jhj jhj jhj jhj",
+            "fgf jhj fgf jhj fgf jhj fgf jhj fgf jhj fgf jhj"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(4) Word Drill",
+          "lines": [
+            "hit hit hit hit hit hit get get get get get get",
+            "yet yet yet yet yet yet try try try try try try"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5)",
+          "lines": [
+            "the the the try try try get get get yet yet yet",
+            "try try try the the the yet yet yet get get get",
+            "key key key jit hit hit tie tie tie kit kit kit",
+            "tie tie tie kit kit kit key key key hit hit hit"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(6)",
+          "lines": [
+            "here here here they they they true true true",
+            "they they they true true true here here here",
+            "there there there fruit fruit fruit right right right",
+            "fruit fruit fruit right right right there there there"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(7)",
+          "lines": [
+            "third third third tired tired tired urged urged urged",
+            "tired tired tired urged urged urged third third third",
+            "truth truth truth their their their dried dried dried",
+            "their their their dried dried dried truth truth truth"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(8)",
+          "lines": [
+            "did they get the right dried fruit there yet",
+            "did they get the right dried fruit there yet"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V4",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(S L W O)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "frf juj ded kik ftf jyj fgf jhj frf juj ded kik",
+            "ded kik ftf jyj fgf jhj frf juj ded kik ftf jyj"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2) S and L",
+          "lines": [
+            "s s s s sss sss sss sss l l l l lll lll lll lll",
+            "sss lll sss lll sss lll sss lll sss lll sss lll"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(3) W and O",
+          "lines": [
+            "w w w w sws sws sws sws o o o o lol lol lol lol",
+            "sws lol sws lol sws lol sws lol sws lol sws lol"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(4) Words Drill",
+          "lines": [
+            "sow sow sow sow sow sow low low low low low low",
+            "row row row row row row how how how how how how"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5)",
+          "lines": [
+            "is is is so so so of of of do do do go go go to to to",
+            "go go go to to to do do do of of of so so so is is is",
+            "too too too low low low set set set wit wit wit wit",
+            "sit sit sit lit lit lit wit wit wit low low low low"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(6)",
+          "lines": [
+            "wool wool wool suit suit suit full full full wood wood",
+            "hole hole hole wool wool wool suit suit suit good good",
+            "style style style order order order those those",
+            "loose loose loose style style style order order",
+            "desire desire desire rulers rulers rulers worker",
+            "worker worker worker desire desire desire rulers"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(7)",
+          "lines": [
+            "hold your wrists low while you strike the keys",
+            "we desire the right goods for our wool suits",
+            "if you will go with us you will see the fleet",
+            "we will try to fill your order for the wool suits",
+            "if we get the right goods we will fill your order"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V5",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(A ; Q P)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "frf juj ded kik ftf jyj fgf jhj frf juj ftf jyj fgf jhj",
+            "ded kik sws lol ded kik sws lol frf juj ftf jyj fgf jhj"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2) A and ;",
+          "lines": [
+            "a a a a aaa aaa aaa aaa ; ; ; ; ;;; ;;; ;;; ;;;",
+            "aaa ;;; aaa ;;; aaa ;;; aaa ;;; aaa ;;; aaa ;;;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(3) Q and P",
+          "lines": [
+            "q q q q aqa aqa aqa aqa p p p p ;p; ;p; ;p; ;p;",
+            "aqa ;p; aqa ;p; aqa ;p; aqa ;p; aqa ;p; aqa ;p;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(4) Word Drill",
+          "lines": [
+            "pa; pa; pa; pa; pa; pa; up; up; up; up; up; up;",
+            "pa; pa; pa; pa; pa; pa; up; up; up; up; up; up;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5)",
+          "lines": [
+            "quay quay quay quay quay quip quip quip quip quip",
+            "quay quay quay quay quay quip quip quip quip quip"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(6)",
+          "lines": [
+            "apt apt apt; put put put; sip sip sip; hip hip hip;",
+            "sip sip sip; hip hip hip; apt apt apt; put put put;",
+            "quip quip quip; quit quit quit; aqua aqua aqua;",
+            "aqua aqua aqua; quip quip quip; quit quit quit;",
+            "paid paid paid; pair pair pair; pass pass pass;",
+            "pair pair pair; pass pass pass; paid paid paid;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(7)",
+          "lines": [
+            "quote quote quote; paper paper paper; quite quite;",
+            "paper paper paper; quite quite quite; quote quote;",
+            "prefer prefer prefer; prepay prepay prepay; quires;",
+            "prepay prepay prepay; prefer prefer prefer; quires;",
+            "postage postage postage; quarter quarter quarter;",
+            "poultry poultry poultry; quality quality quality;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(8)",
+          "lines": [
+            "two quires of high quality paper were shipped today;",
+            "we shall pay you well to prepare the reports for us;",
+            "we quote a low figure for our high quality paper;",
+            "we prefer to prepay the postage for the two quires;"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V6",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(Shift Keys for Capitalization)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
+            "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj",
+            "he will pay jed squire for the sugar this week;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2) Capital Letter Drill",
+          "lines": [
+            "F F F F F F Fa Fa Fa Fa Fa Fa Fay Fay Fay Fay Fay Fay",
+            "J J J J J J Ja Ja Ja Ja Ja Ja Jay Jay Jay Jay Jay Jay",
+            "R R R R R R Ra Ra Ra Ra Ra Ra Ray Ray Ray Ray Ray Ray",
+            "H H H H H H Ha Ha Ha Ha Ha Ha Hal Hal Hal Hal Hal Hal"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(3)",
+          "lines": [
+            "Kay Kay Kay; Joe Joe Joe; Alf Alf Alf; Lou Lou Lou;",
+            "Joe Joe Joe; Kay Kay Kay; Lou Lou Lou; Alf Alf Alf;",
+            "Dora Dora Dora; Ella Ella Ella; Pete Pete Pete;",
+            "Sara Sara Sara; Lola Lola Lola; Will Will Will;",
+            "Garry Garry Garry; Harry Harry Harry; Paula Paula;",
+            "Harry Harry Harry; Taffy Taffy Taffy; Quail Quail;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(4)",
+          "lines": [
+            "Uriah Uriah Uriah; Yetta Yetta Yetta; Ollie Ollie;",
+            "Yetta Yetta Yetta; Ollie Ollie Ollie; Uriah Uriah;",
+            "Walter Walter Walter; Esther Esther Esther; Isaiah;",
+            "Esther Esther Esther; Walter Walter Walter; Isaiah;",
+            "Arthur Arthur Arthur; Lester Lester Lester; Quezon;",
+            "Quezon Quezon Quezon; Arthur Arthur Arthur; Philip;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5)",
+          "lines": [
+            "Joseph likes to study; Joseph likes to study art;",
+            "Esther will write; Esther will write Larry today;",
+            "Arthur likes; Arthur likes to play the flute;",
+            "Kate says; Kate says she will stay till Friday;",
+            "Paul will take Willa to the Park Sherry Theater;"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V7",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(Shift Lock and :)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
+            "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2) Shift Lock Drill",
+          "lines": [
+            "It is GOOD WORK; It is GOOD WORK; It is GOOD WORK;",
+            "It is GOOD WORK; It is GOOD WORK; It is GOOD WORK;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(3)",
+          "lines": [
+            "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
+            "The TITLE of the REPORT is:  HOUSES FOR SALE",
+            "The TITLE of the REPORT is:  HOUSES FOR SALE",
+            "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj",
+            "We quote LOW FIGURES for HIGHEST QUALITY paper;",
+            "We quote LOW FIGURES for HIGHEST QUALITY paper;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(4)",
+          "lines": [
+            "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
+            "The PARK POSTER reads:  KEEP OFF THE GRASS",
+            "The PARK POSTER reads:  KEEP OFF THE GRASS",
+            "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj",
+            "Paul quoted the old adage:  THE THRIFTY ARE WISE",
+            "Paul quoted the old adage:  THE THRIFTY ARE WISE"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5)",
+          "lines": [
+            "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
+            "GOOD WORK will lead to a HAPPY LIFE for you;",
+            "GOOD WORK will lead to a HAPPY LIFE for you;",
+            "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj",
+            "The DAILY DRILLS will HELP YOU type with EASE;",
+            "The DAILY DRILLS will HELP YOU type with EASE;"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V8",
+      "pages": [
+        {
+          "type": "text",
+          "title": "",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
+            "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj",
+            "He will pay Jed Squire for the sugar this week;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2) The Period",
+          "lines": [
+            ". . . . . . l.l l.l l.l l.l l.l l.l l.l l.l l.l",
+            "Hit it lightly.  Hit it lightly.  Hit it lightly.",
+            "Hit it lightly.  Hit it lightly.  Hit it lightly."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(4) Keyboard Review",
+          "lines": [
+            "for fat few fur foe fit fed fee for fat fir few fro;",
+            "fro few fir fat for fee fig foe fop fit fur fat fad;",
+            "jug jig jut jar joy jag jaw jar jet jot jog jug joy;",
+            "joy jug jog jag jaw jot jig jut jar jig jaw jog jet;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5)",
+          "lines": [
+            "rye rut row red rip ray rap rug rig rut rye rug rot;",
+            "rot rye rut row red rip rat rap rug rig rut rye rug;",
+            "up us use uses urge ugly usage upper uproar upright;",
+            "us up use urge uses urge urges udder utters upstart;"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V9",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(V and M)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
+            "aqa ;p; sws lol ded kik frf juj ftf jyj fgf jhj",
+            "I will pay Joe Quig for the sugar today."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2) New Keys (V, M)",
+          "lines": [
+            "v v v v fvf fvf fvf fvf m m m m jmj jmj jmj jmj",
+            "fvf jmj fvf jmj fvf jmj fvf jmj fvf jmj fvf jmj"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(3)",
+          "lines": [
+            "over over over; gave gave gave; have have have;",
+            "home home home; seem seem seem; time time time;",
+            "ever ever ever; more more more; item item item;",
+            "live live live; vast vast vast; five five five;",
+            "You must devote more time to your daily work.",
+            "You should go over every item with more thought."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5) Exercises on G, H, T, and Y",
+          "lines": [
+            "go got get gas gag gap gay gig gray greed great;",
+            "go gig gay gap gas gag get gas gray great greed;",
+            "her has had his hit hot hut hat hay hag had his;",
+            "his had hag hay hat hut hot hit his had has her;"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V10",
+      "pages": [
+        {
+          "type": "text",
+          "title": "",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
+            "fgf jhj fvf jmj fgf jhj fvf jmj fgf jhj fvf jmj",
+            "Paul Quigs will devote more time to his work."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2) New Keys",
+          "lines": [
+            "b b b b fbf fbf fbf fbf n n n n jnj jnj jnj jnj",
+            "fbf jnj fbf jnj fbf jnj fbf jnj fbf jnj fbf jnj"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(3) Word Drill",
+          "lines": [
+            "bin bin bin bin bin bin nib nib nib nib nib nib",
+            "big big big big big big now now now now now now"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(4)",
+          "lines": [
+            "bun bun bun; nip nip nip; fib fib fib; win win win;",
+            "fib fib fib; win win win; bun bun bun; nip nip nip;",
+            "bent bent bent; nine nine nine; vent vent vent;",
+            "mend mend mend; vine vine vine; blow blow blow;",
+            "We require more time to turn out a very good job.",
+            "Be prompt.  Never shirk.  Make promptness a habit."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(6) Words with D, E, K, and I",
+          "lines": [
+            "do dot due dye day dew dab den dim dog die dig dry dip",
+            "do dig dry dip die dog dim dab den dew day dye due dot",
+            "ebb eke err eve end egg ever even edge earn east evil",
+            "err eke eve end ebb eel evil east earn edge envy easy"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(7)",
+          "lines": [
+            "kid kin kit keg key king kind know knee knot knew",
+            "key keg kid kit kin knew knot knee knob king kind",
+            "it is in if ire ill ink inn imp idle item isle iron",
+            "if in is it imp inn ill ire ink item idle iron isle"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V11",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(C and Comma)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
+            "fvf jmj fbf jnj fvf jmj fbf jnj fvf jmj fbf jnj",
+            "The Ben Mavis firm submitted the lowest quotation."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2) New Key Review",
+          "lines": [
+            "c c c c dcd dcd dcd dcd , , , , k,k k,k k,k k,k",
+            "dcd k,k dcd k,k dcd k,k dcd k,k dcd k,k dcd k,k"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(3) Word Drill",
+          "lines": [
+            "can, can, can, can, can, cue, cue, cue, cue, cue,",
+            "can, can, can, can, can, cue, cue, cue, cue, cue,"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(4)",
+          "lines": [
+            "cash, cash, cash, lack, lack, lack, lace, lace, lace,",
+            "lack, lack, lack, lace, lace, lace, cash, cash, cash,",
+            "could, could, could, clerk, clerk, clerk, camp, camp,",
+            "clerk, clerk, clerk, could, could, could, cane, cane,"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5)",
+          "lines": [
+            "If you call before five, the bank will cash your check.",
+            "Charles Condon, sales manager, was in complete charge.",
+            "He may, if convenient, have it charged to his account."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(7)",
+          "lines": [
+            "sub sum see sun set sit sin sip she ship shall shame",
+            "sit sin sip set sub sum see sod sob slip sweep super",
+            "won win who why wet was weak wear west well what when",
+            "was wet why who win won what well wear west when what"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(8)",
+          "lines": [
+            "lad lid lot let log lie lag lug lip last sate sawn",
+            "lip lag lug lie log let lot lid lad land lane last",
+            "own out owl old one oak out oil off over oven open",
+            "off oil out oak one old owl our own open ours over"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V12",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(X and .)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "frf juj ftf jyj fgf jhj fvf jmj fbf jnj fvf jmj",
+            "ded kik sws lol aqa ;p; dcd k,k dcd k,k fvf jmj"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2)",
+          "lines": [
+            "touch...learn...above...typing...talent...",
+            "average...special...that is...You do......",
+            "You do not"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(4) New Key Tryout",
+          "lines": [
+            "x x x x sxs sxs sxs sxs . . . . l.l l.l l.l l.l",
+            "sxs l.l sxs l.l sxs l.l sxs l.l sxs l.l sxs l.l"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5) Word Drill",
+          "lines": [
+            "six six six six six six etc. etc. etc. etc. etc.",
+            "six six six six six six etc. etc. etc. etc. etc."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(6)",
+          "lines": [
+            "fixes fixes fixes; mixes mixes mixes; taxes taxes;",
+            "mixes mixes mixes; fixes fixes fixes; boxes boxes;",
+            "expert expert expert; expect expect expect; excels;",
+            "exceed exceed exceed; excuse excuse excuse; excels;",
+            "Dr. Lux, tax expert, will examine the tax returns.",
+            "Mr. Cox examined the mixture with extreme care."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(8) Drill on A, Q, ;, P",
+          "lines": [
+            "act ant and ask apt any art all age anle acid aged",
+            "age all art any ask act add axe ant aged able acid",
+            "quit quip quote quite queer queen quack quaint quorum",
+            "quip quit quite quote queen queer quail quorum quaint",
+            "pin pup put; pull palm pant; pint pile push; punch;",
+            "put pin pup; pant pull palm; push pick pile; paper;"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V13",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(Z and /)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
+            "fvf jmj fbf jnj dcd k,k sxs l.l dcd k,k sxs l.l"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2)",
+          "lines": [
+            "touch...learn...above...typing...talent...average",
+            "special...lessons...you do...for you...is the",
+            "do the...of the...in this"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(4) New Key Tryout",
+          "lines": [
+            "z z z z aza aza aza aza / / / / ;/; ;/; ;/; ;/;",
+            "aza ;/; aza ;/; aza ;/; aza ;/; aza ;/; aza ;/;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5) Word Drill",
+          "lines": [
+            "zip zip zip zip zip c/o c/o c/o c/o c/o c/o",
+            "zip zip zip zip zip c/o c/o c/o c/o c/o c/o"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(8)",
+          "lines": [
+            "bag big bug bit bud bed bid bun bale bend bank bask",
+            "but bid bed bun bid big bag bud bask bale band bank",
+            "not now nut nor note nose none nude noun nine nest",
+            "now not nor nut nose note nude none nine nest next"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(9)",
+          "lines": [
+            "vim vet van vex vet vast vote veto vase vine vial",
+            "van vex vet vim vex vial vine vase veto vote vast",
+            "man mix mat mad made mail main make mark mask mine",
+            "mad met mix men mask mark made main male made mint"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V14",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(The Question Mark)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
+            "fvf jmj fbf jnj dcd k,k sxs l.l aza ;/; aza ;/;",
+            "Liza quickly mixed the very big jar of new soap."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2)",
+          "lines": [
+            "touch...learn...above...aside...typing",
+            "talent...amount...average...special...",
+            "lessons...definite...is the...of the",
+            "for you...you do...that is...in this",
+            "you do not"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(4) New Key Tryout",
+          "lines": [
+            "? ? ? ? ? ? Who?  Who?  Who?  Who?  Who?  Who?",
+            "? ? ? ? ? ? Why?  Why?  Why?  Why?  Why?  Why?"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5)",
+          "lines": [
+            "How much?  How many?  How soon?  How early?  How fast?",
+            "How many?  How much?  How fast?  How large?  How soon?",
+            "Where is Max?  Where is Mary?  What is Cora sewing?",
+            "Where is Sam?  Where is Paul?  What is Zeke fixing?",
+            "Can Max swim?  Can he dance?  Can he play tennis?",
+            "Can he dance?  Does he swim?  Do you like tennis?"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(6)",
+          "lines": [
+            "Did you open the mail?  Did you read the note?",
+            "Did you read the note?  Did you open the mail?",
+            "Can Van do the work?  Will he require aid?  Who knows?",
+            "Can Jim complete it?  Is he quite capable?  Who knows?"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(8)",
+          "lines": [
+            "lax vex six tax fix taxed fixing mixing taxing vexing",
+            "fix tax vex lax six fixed vexing taxing fixing mixing",
+            "zip zoo zest zeal zinc zero lazy zone zoom zinc zealot",
+            "zoo zip zoom zone lazy zinc zeal zest zero zone zealot"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V15",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(1, 4, 5, 6, 7)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "frf juj ftf jyj fgf jhj ded kik sws lol aqa ;p;",
+            "fvf jmj fbf jnj dcd k,k sxs l.l aza ;/; aza ;/;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2)",
+          "lines": [
+            "touch...learn...above...aside...typing",
+            "talent...amount...follow...easily...become",
+            "typist...average...special...lessons...definite",
+            "exactly...quickly...surprised...is the...",
+            "of the...in the...in this...for you...",
+            "you will...you will be"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5) 4 and 7",
+          "lines": [
+            "f4f f4f f4f f4f f4f f4f j7j j7j j7j j7j j7j j7j",
+            "f4f j7j f4f j7j f4f j7j f4f j7j f4f j7j f4f j7j",
+            "or 4 or 4 or 4 ru 7 ru 7 ru 7 or 4 ru 7 or 4 ru 7",
+            "or 4 ru 7 or 4 ru 7 or 4 ru 7 or 4 ru 7 or 4 ru 7"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(6)",
+          "lines": [
+            "June 1; July 4; April 7; January 4; March 17, 1741",
+            "July 4; June 1; March 4; October 7; April 14, 1471",
+            "What is the sum of 11 and 7 and 4 and 1 and 714?",
+            "What is the sum of 17 and 4 and 7 and 1 and 174?"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(7)",
+          "lines": [
+            "Florence is 7 years 14 months and 17 days old today.",
+            "Veronica is 4 years 11 months and 14 days old today.",
+            "Your order of November 14 was shipped on December 17.",
+            "Your order of December 11 was shipped on February 14.",
+            "Policy No. 141174 will expire on Monday, November 14.",
+            "Policy No. 471714 will expire on Friday, December 17."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(10) 5 and 6",
+          "lines": [
+            "f5f f5f f5f f5f f5f f5f j6j j6j j6j j6j j6j j6j",
+            "f5f j6j f5f j6j f5f j6j f5f j6j f5f j6j f5f j6j",
+            "if 5 by 6 if 5 by 6 if 6 by 6 if 5 by 6 if 5 by 6",
+            "if 5 by 6 if 5 by 6 if 6 by 6 if 5 by 6 if 5 by 6"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(11)",
+          "lines": [
+            "f4f j7j f5f j6j f4f j7j f5f j6j f4f j7j f5f j6j",
+            "15 lbs. coffee; 16 doz. eggs; 56 boxes oranges;",
+            "65 lbs. coffee; 14 doz. eggs; 75 boxes oranges;",
+            "or 4 ru 7 it 5 my 6 or 4 ru 7 it 5 my 6 147 156",
+            "The Barton Market is at 516 West 147th Street.",
+            "The Baxter Market is at 165 East 165th Street."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(12)",
+          "lines": [
+            "fr4 ju7 ft5 jy6 f4f j7j f5f j6j f4f j7j f5f j6j",
+            "Robert Fulton was born in Pennsylvania in 1765.",
+            "William Penn, English Quaker, was born in 1644.",
+            "or 4 ru 7 it 5 by 6 or 4 ru 7 it 5 by 6 174 516",
+            "The sum of 15 and 51 and 65 and 41 and 475 is 647.",
+            "The sum of 51 and 15 and 56 and 14 and 475 is 611."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V16",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(3 and 8)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "f4f j7j f5f j6j f4f j7j f5f j6j f4f j7j f5f j6j",
+            "417 147 517 157 617 167 617 171 714 471 651 174"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2)",
+          "lines": [
+            "never...typing...office...become...getting...",
+            "acquire...efforts...valuable...personal...",
+            "possible...business...shorthand...it is...",
+            "it can...to it...in the...to use...to have",
+            "if you...from you...why not"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5) New Key Tryout",
+          "lines": [
+            "d3d k8k d3d k8k d3d k8k d3d k8k d3d k8k d3d k8k",
+            "131 313 311 181 818 381 381 381 183 138 318 813",
+            "bid 3 bid 3 bid 3 bid 3 oak 8 oak 8 oak 8 oak 8",
+            "bid 3 bid 3 bid 3 bid 3 oak 8 oak 8 oak 8 oak 8"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(6)",
+          "lines": [
+            "d3d k8k d3d k8k d3d k8k d3d k8k 318 813 138 813 381",
+            "13 lbs. lamb roast; 38 lbs. lamb chops; 8 lbs. bananas;",
+            "31 lbs. lamb chops; 83 lbs. lamb roast; 3 lbs. peaches;",
+            "lie 3 dye 3 pie 3 dye 3 Fiji 8 Fiji 8 Fiji 8",
+            "18 cans grape juice; 138 cans prune juice; 4 lbs. coffee;",
+            "47 cans prune juice; 143 cans grape juice; 8 lbs. onions;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(7)",
+          "lines": [
+            "d3d k8k d3d k8k d3d k8k 183 381 813 318 138 381",
+            "8 lbs. Swiss Cheese; 13 lbs. Kraft Cheese; 4 lbs. pears;",
+            "5 lbs. Kraft Cheese; 17 lbs. Swiss Cheese; 6 lbs. beans;",
+            "pie 3 dye 3 pie 3 dye 3 Fiji 8 Fiji 8 Fiji 8 Fiji 8",
+            "The sum of 13 and 83 and 153 and 75 and 47 is 371.",
+            "The sum of 47 and 75 and 153 and 83 and 13 is 371."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V17",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(2 and 9)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "f4f j7j f5f j6j d3d k8k f4f j7j f5f j6j d3d k8k",
+            "or4 ru7 it5 by6 ie3 ok8 or4 ru7 it5 by6 ie3 ok8",
+            "The sum of 14 and 16 and 53 and 58 and 174 is 315."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2)",
+          "lines": [
+            "strike...center...finger...spring...though...",
+            "expert...sharply...release...quickly...develop...",
+            "letting...squarely...practice...familiar...",
+            "fingertip...important...technique...releasing...",
+            "instantly...it is...do it...do this...with the...",
+            "you get."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5) New Key Tryout",
+          "lines": [
+            "s2s s2s s2s s2s s2s s2s l9l l9l l9l l9l l9l l9l",
+            "s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l",
+            "bow 2 bow 2 bow 2 bow 2 two 9 two 9 two 9 two 9",
+            "bow 2 two 9 bow 2 two 9 bow 2 two 9 bow 2 two 9"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(6)",
+          "lines": [
+            "s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l s2s l9l",
+            "12 lbs. coffee; 19 lbs. Cottage Cheese; 9 lbs. peaches;",
+            "19 lbs. apples; 29 lbs. Cheddar Cheese; 2 lbs. bananas;",
+            "low 2 fro 9 low 2 fro 9 low 2 fro 9 low 2 fro 9 29 192;",
+            "9 lbs. Smoked Tongue; 2 lbs. tomatoes; 9 lbs. avocados;",
+            "2 lbs. Cooked Tongue; 9 lbs. avocados; 2 lbs. tomatoes;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(7)",
+          "lines": [
+            "s2s l9l s2s l9l 219 921 192 s2s l9l s2s 191 291 129",
+            "The sum of 29 and 86 and 33 and 92 and 52 is 292.",
+            "The sum of 52 and 92 and 86 and 33 and 29 is 292.",
+            "ow 2 to 9 ow 2 to 9 we 23 ok 98 we 23 ok 98 s2s l9l",
+            "George Washington was born on February 22, 1732.",
+            "Horatio Alger was born in 1834 and died in 1899."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V18",
+      "pages": [
+        {
+          "type": "text",
+          "title": "(0 and the Hyphen)",
+          "text": ""
+        },
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "f4f j7j f5f j6j d3d k8k s2s l9l f4f j7j f5f j6j",
+            "s2s l9l d3d k8k f4f j7j f5f j6j f4f j7j f5f j6j",
+            "The sum of 47 and 65 and 38 and 92 and 16 equals 258."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2)",
+          "lines": [
+            "expert...typing...margin...always...before...",
+            "permits...others...reached...equipped...machines...",
+            "carriage...typewriter...approaching...you are...",
+            "of the...for the...on the...you may...before the"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(5) New Key Tryout",
+          "lines": [
+            ";0; ;0; ;0; ;0; ;0; ;0; ;-; ;-; ;-; ;-; ;-; ;-;",
+            ";0; ;-; ;0; ;-; ;0; ;-; ;0; ;-; ;0; ;-; ;0; ;-;",
+            "10-room; 10-room; 10-room; 10-room; 10-room;",
+            "20-room; 20-room; 20-room; 20-room; 20-room;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(6)",
+          "lines": [
+            "f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;",
+            "one-half; one-fourth; one-eighth; three-quarters;",
+            "one-half; two-thirds; one-fourth; three-sevenths;",
+            "f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;",
+            "20-room house; 30-room house; 40-room house;",
+            "50-room house; 60-room house; 70-room house;"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(7)",
+          "lines": [
+            "f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;",
+            "One-fourth may be typewritten like this:  1/4.",
+            "One-eighth may be typewritten like this:  1/8.",
+            "f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;",
+            "Every expert was once a beginner--with ambition.",
+            "Every expert was once a beginner--with ambition."
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson V19",
+      "pages": [
+        {
+          "type": "exercise",
+          "prompt": "(1) Warmup",
+          "lines": [
+            "f4f j7j f5f j6j d3d k8k s2s l9l ;0; ;-; ;0; ;-;",
+            "s2s l9l ;-; ;=; d3d k8k f4f j7j ;0; ;-; ;0; ;-;",
+            "Max Zale made a long-distance flight of 2,590 miles."
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "(2)",
+          "lines": [
+            "called...fourth...typing...letter...always...",
+            "capital...holding...depress...fingers...release...",
+            "touching...slightly...position...right-hand...of the",
+            "for the...all the...with the...you have"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Yet more QWERTY lessons",
+      "pages": []
     }
   ]
 }

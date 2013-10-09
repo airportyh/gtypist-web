@@ -1,115 +1,140 @@
 {
   "title": "Calculator keypad",
-  "pages": [
+  "id": "n",
+  "type": "lesson",
+  "lessons": [
     {
-      "type": "text",
-      "title": "Numeric Keypad Lessons",
-      "text": "\nThe N series lessons are provided for practice with the numeric keys available\non the H89/H19 terminal.  You do not need to know how to touch type on the\nstandard keyboard in order to learn touch typing on a calculator keypad.  So,\nyou can begin this series right away.\nWhen entering numeric values, accuracy is usually more important than speed.\nTake these lessons very slowly.  Speed will come naturally later.\nAs with the standard keypad, you must start in the HOME position.  Place the\nfirst three fingers of your right hand over the 4, 5, and 6 keys of the keypad.\n(Your thumb and fifth finger are not used.)  Your fingers should be poised just\nover the keys gently brushing them.  Use the thumb or any finger of your left\nhand for other keys, such as the SPACE bar.\nAfter entering each line, hit the ENTER key with the 6-finger (the third finger\nof your right hand).  Immediately return your finger to the 6 key.  It is very\nimportant that you bring the finger back without looking."
-    },
-    {
-      "type": "exercise",
-      "prompt": "Use your third finger only.",
-      "lines": [
-        "666666"
+      "type": "lesson",
+      "title": "Lesson N1",
+      "pages": [
+        {
+          "type": "text",
+          "title": "Numeric Keypad Lessons",
+          "text": "\nThe N series lessons are provided for practice with the numeric keys available\non the H89/H19 terminal.  You do not need to know how to touch type on the\nstandard keyboard in order to learn touch typing on a calculator keypad.  So,\nyou can begin this series right away.\nWhen entering numeric values, accuracy is usually more important than speed.\nTake these lessons very slowly.  Speed will come naturally later.\nAs with the standard keypad, you must start in the HOME position.  Place the\nfirst three fingers of your right hand over the 4, 5, and 6 keys of the keypad.\n(Your thumb and fifth finger are not used.)  Your fingers should be poised just\nover the keys gently brushing them.  Use the thumb or any finger of your left\nhand for other keys, such as the SPACE bar.\nAfter entering each line, hit the ENTER key with the 6-finger (the third finger\nof your right hand).  Immediately return your finger to the 6 key.  It is very\nimportant that you bring the finger back without looking."
+        },
+        {
+          "type": "exercise",
+          "prompt": "Use your third finger only.",
+          "lines": [
+            "666666"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "Use your second finger for the 5.",
+          "lines": [
+            "6565656"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "Use your first finger for the 4.",
+          "lines": [
+            "666444555444666"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "Use your second finger for the period.",
+          "lines": [
+            "555...555"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "Use your first finger for the 1-key.",
+          "lines": [
+            "444111444.444111444"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "Now, let's review the keys we've learned.",
+          "lines": [
+            "444555666111...555444666111"
+          ]
+        }
       ]
     },
     {
-      "type": "exercise",
-      "prompt": "Use your second finger for the 5.",
-      "lines": [
-        "6565656"
+      "type": "lesson",
+      "title": "Lesson N2",
+      "pages": [
+        {
+          "type": "exercise",
+          "prompt": "First, let's review the keys from lesson 1.",
+          "lines": [
+            "444.555.666.111.6541.6541"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "Use your 5-finger for the 2 key.",
+          "lines": [
+            "555222555.525.525.525"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "Use your 6-finger for the 3 key.",
+          "lines": [
+            "666333666.636.636"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "Use your 4-finger for the zero.",
+          "lines": [
+            "444000444.401.410"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "Use your 5-finger for the 8-key.",
+          "lines": [
+            "555888555.852.258"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "Use your 6-finger for the 9-key.",
+          "lines": [
+            "666999666.393.696"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "And, the last number is 7. (Use your 4-finger for it.)",
+          "lines": [
+            "444777444.0147.7410"
+          ]
+        }
       ]
     },
     {
-      "type": "exercise",
-      "prompt": "Use your first finger for the 4.",
-      "lines": [
-        "666444555444666"
+      "type": "lesson",
+      "title": "Lesson N3",
+      "pages": [
+        {
+          "type": "exercise",
+          "prompt": "First, let's review all the numbers.",
+          "lines": [
+            "1234567890.0987654321"
+          ]
+        },
+        {
+          "type": "exercise",
+          "prompt": "Use any finger of your left hand for the SPACE bar.",
+          "lines": [
+            "111 222 333 444 555 666 777 888 999 000"
+          ]
+        }
       ]
     },
     {
-      "type": "exercise",
-      "prompt": "Use your second finger for the period.",
-      "lines": [
-        "555...555"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "Use your first finger for the 1-key.",
-      "lines": [
-        "444111444.444111444"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "Now, let's review the keys we've learned.",
-      "lines": [
-        "444555666111...555444666111"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "First, let's review the keys from lesson 1.",
-      "lines": [
-        "444.555.666.111.6541.6541"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "Use your 5-finger for the 2 key.",
-      "lines": [
-        "555222555.525.525.525"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "Use your 6-finger for the 3 key.",
-      "lines": [
-        "666333666.636.636"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "Use your 4-finger for the zero.",
-      "lines": [
-        "444000444.401.410"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "Use your 5-finger for the 8-key.",
-      "lines": [
-        "555888555.852.258"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "Use your 6-finger for the 9-key.",
-      "lines": [
-        "666999666.393.696"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "And, the last number is 7. (Use your 4-finger for it.)",
-      "lines": [
-        "444777444.0147.7410"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "First, let's review all the numbers.",
-      "lines": [
-        "1234567890.0987654321"
-      ]
-    },
-    {
-      "type": "exercise",
-      "prompt": "Use any finger of your left hand for the SPACE bar.",
-      "lines": [
-        "111 222 333 444 555 666 777 888 999 000"
-      ]
+      "type": "lesson",
+      "title": "Calculator keypad lessons",
+      "pages": []
     }
   ]
 }

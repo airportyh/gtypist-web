@@ -4,6 +4,7 @@ var parseLesson = require('./parse_lesson')
 var async = require('async')
 var path = require('path')
 var fs = require('fs')
+var mkdirp = require('mkdirp')
 
 var files = [
   ['q', 'Quick QWERTY'],
@@ -26,31 +27,61 @@ async.each(files, convert, function(err){
 })
 
 function convert(pair, callback){
-  var file = path.join('lessons/typ/', pair[0] + '.typ')
+  var id = pair[0]
+  var file = path.join('lessons/typ/', id + '.typ')
   var name = pair[1]
   parseLesson(file, function(pages){
     var lesson = {
       title: name,
-      pages: pages
+      id: id,
+      type: 'lesson',
+      lessons: pages
     }
-    var outfile = path.join('lessons/json', pair[0] + '.json')
+    var outfile = path.join('lessons/json', id + '.json')
     fs.writeFile(outfile, JSON.stringify(lesson, null, '  '), function(err){
       if (err) console.log(err.message)
       console.log('Generated', outfile, 'from', file + '.')
-      callback()
+      generateHtmlFiles(lesson, callback)
     })
   })
 }
 
-function generateIndex(callback){
-  var index = files.map(function(f){
-    return {
-      title: f[1],
-      url: 'lessons/json/' + f[0] + '.json',
-      name: f[0]
-    }
+function generateHtmlFiles(lesson, callback){
+  var htmlContent = '<script src="/index.js"></script>'
+  mkdirp(lesson.id, function(err){
+    if (err) console.log(err.message)
+    async.each(Object.keys(lesson.lessons), function(idx, next){
+      var subLesson = lesson.lessons[idx]
+      var htmlfile = path.join(lesson.id, idx + '.html')
+      fs.writeFile(htmlfile, htmlContent, function(err){
+        if (err) console.error(err.message)
+        console.log('Generated', htmlfile)
+        next()
+      })
+    }, function(err){
+      if (err) console.error(err.message)
+      var htmlfile = lesson.id + '.html'
+      fs.writeFile(htmlfile, htmlContent, function(err){
+        if (err) console.log(err.message)
+        console.log('Generated', htmlfile)
+        callback()
+      })
+    })  
   })
-  var file = path.join('lessons', 'index.json')
+  
+}
+
+function generateIndex(callback){
+  var index = {
+    type: 'index',
+    lessons: files.map(function(f){
+      return {
+        title: f[1],
+        name: f[0]
+      }
+    })
+  }
+  var file = path.join('lessons/json', 'index.json')
   fs.writeFile(file, JSON.stringify(index, null, '  '), function(err){
     if (err) return console.error(err)
     console.log('Generated', file)

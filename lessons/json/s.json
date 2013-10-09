@@ -1,30 +1,61 @@
 {
   "title": "Speed drills",
-  "pages": [
+  "id": "s",
+  "type": "lesson",
+  "lessons": [
     {
-      "type": "text",
-      "title": "SPEED PRACTICE SERIES",
-      "text": "\nThe S series of lessons is designed to help you improve your typing speed\nand accuracy.  It is assumed that you have already learned how to touch\ntype either from a previous course in touch typing or from the T series of\nthese lessons.\nYou can use this series even if you do not know how to touch type.  But, it is\nrecommended that you at least learn to touch type most of the letters of the\nalphabet before starting this series.  When you encounter a letter or symbol\nwhich you have not learned, you will have to look.  This is a very bad habit to\nget into and is hard to break.  (You needn't worry if you only need to glance\ndown for unusual keys, like the dollar sign.)"
+      "type": "lesson",
+      "title": "Lesson S1",
+      "pages": [
+        {
+          "type": "text",
+          "title": "SPEED PRACTICE SERIES",
+          "text": "\nThe S series of lessons is designed to help you improve your typing speed\nand accuracy.  It is assumed that you have already learned how to touch\ntype either from a previous course in touch typing or from the T series of\nthese lessons.\nYou can use this series even if you do not know how to touch type.  But, it is\nrecommended that you at least learn to touch type most of the letters of the\nalphabet before starting this series.  When you encounter a letter or symbol\nwhich you have not learned, you will have to look.  This is a very bad habit to\nget into and is hard to break.  (You needn't worry if you only need to glance\ndown for unusual keys, like the dollar sign.)"
+        },
+        {
+          "type": "text",
+          "title": "RULES OF THE GAME",
+          "text": "\nI will display a paragraph on the screen.  You should then type the entire\nparagraph as quickly and as accurately as possible.   As you type each\ncharacter, I will immediately check it for accuracy.  If it was right, I won't\ndo anything.  But, if you made a mistake, I will beep and write that letter in\ninverse video (a black character on a white background).  You can ignore the\nerror and continue going; or, you can backup and correct it with the DELETE\nor BACKSPACE keys.  (I will still count it as an error though.)\nI will also be timing you.  From the time you type the first character until\nyou hit the final carriage return, my stop watch will be going.  At the\nend of the paragraph, I will tell you your rating (in words-per-minute).\nIf you made too many mistakes, try the next paragraph slower.  If you made no\nmistakes or only one or two, try the next one faster."
+        }
+      ]
     },
     {
-      "type": "text",
-      "title": "RULES OF THE GAME",
-      "text": "\nI will display a paragraph on the screen.  You should then type the entire\nparagraph as quickly and as accurately as possible.   As you type each\ncharacter, I will immediately check it for accuracy.  If it was right, I won't\ndo anything.  But, if you made a mistake, I will beep and write that letter in\ninverse video (a black character on a white background).  You can ignore the\nerror and continue going; or, you can backup and correct it with the DELETE\nor BACKSPACE keys.  (I will still count it as an error though.)\nI will also be timing you.  From the time you type the first character until\nyou hit the final carriage return, my stop watch will be going.  At the\nend of the paragraph, I will tell you your rating (in words-per-minute).\nIf you made too many mistakes, try the next paragraph slower.  If you made no\nmistakes or only one or two, try the next one faster."
+      "type": "lesson",
+      "title": "Lesson S2",
+      "pages": [
+        {
+          "type": "text",
+          "title": "In this lesson we will practice some quotes by some famous (and not",
+          "text": "\nso famous) people."
+        }
+      ]
     },
     {
-      "type": "text",
-      "title": "In this lesson we will practice some quotes by some famous (and not",
-      "text": "\nso famous) people."
+      "type": "lesson",
+      "title": "Lesson S3",
+      "pages": [
+        {
+          "type": "text",
+          "title": "In this lesson you will be given several excerpts from the classics.",
+          "text": "\nTake your time and type them carefully."
+        }
+      ]
     },
     {
-      "type": "text",
-      "title": "In this lesson you will be given several excerpts from the classics.",
-      "text": "\nTake your time and type them carefully."
+      "type": "lesson",
+      "title": "Lesson S4",
+      "pages": [
+        {
+          "type": "text",
+          "title": "In this lesson you will be given several soliloquies from",
+          "text": "\nShakespeare's plays.  The spelling and punctuation are\nquite hard.  Take your time and type them carefully."
+        }
+      ]
     },
     {
-      "type": "text",
-      "title": "In this lesson you will be given several soliloquies from",
-      "text": "\nShakespeare's plays.  The spelling and punctuation are\nquite hard.  Take your time and type them carefully."
+      "type": "lesson",
+      "title": "Speed drills",
+      "pages": []
     }
   ]
 }

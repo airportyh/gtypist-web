@@ -3,6 +3,7 @@ var h = require('hyperscript')
 var ajax = require('./ajax')
 var MainMenu = require('./main_menu')
 var LessonView = require('./lesson_view')
+var SubMenu = require('./submenu')
 
 module.exports = GTypistWeb
 
@@ -12,21 +13,48 @@ function GTypistWeb(){
   var currentView
   var view = { element: element }
 
-  function goto(url){
-    ajax(url, function(obj){
-      if (currentView){
-        destroyCurrentView()
-      }
-      
-      if (isIndex(obj)){
-        currentView = MainMenu(obj) 
-      }else{
-        currentView = LessonView(obj)
-      }
-      E.on(currentView, 'goto', goto)
+  function goto(path){
+    var url, m
+    if (path === '/'){
+      url = '/lessons/json/index.json'
+      updateUrl(path)
+      ajax(url, function(index){
+        swapView(MainMenu(index))
+      })
+    }else if (m = path.match(/^\/([a-z0-9]+)\.html$/)){
+      url = '/lessons/json/' + m[1] + '.json'
+      updateUrl(path)
+      ajax(url, function(lesson){
+        swapView(SubMenu(lesson))
+      })
+    }else if (m = path.match(/^\/([a-z0-9]+)\/([0-9]+).html$/)){
+      url = '/lessons/json/' + m[1] + '.json'
+      var idx = Number(m[2])
+      updateUrl(path)
+      ajax(url, function(lesson){
+        swapView(LessonView(lesson.lessons[idx]))
+      })
+    }else{
+      console.error('Unknown url pattern:', path)
+    }
+  }
 
-      element.appendChild(currentView.element)
-    })
+  function updateUrl(path){
+    if (location.pathname === path) return
+    if (history.pushState){
+      history.pushState({}, '', path)
+    }else{
+      window.location = path
+    }
+  }
+
+  function swapView(newView){
+    if (currentView){
+      destroyCurrentView()
+    }
+    currentView = newView
+    E.on(currentView, 'goto', goto)
+    element.appendChild(currentView.element)
   }
 
   function destroyCurrentView(){
@@ -35,13 +63,10 @@ function GTypistWeb(){
     element.removeChild(currentView.element)
   }
 
-  function isIndex(obj){
-    return !obj.title
-  }
-
   view.destroy = destroyCurrentView
 
-  goto('lessons/index.json')
+  E.on(view, 'goto', goto)
+  E.emit(view, 'goto', location.pathname)
 
   return view
 

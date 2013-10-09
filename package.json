@@ -6,7 +6,8 @@
     "hyperscript": "~1.2.1",
     "emmitt": "~0.0.2",
     "async": "~0.2.9",
-    "barber": "0.0.6"
+    "barber": "0.0.6",
+    "mkdirp": "~0.3.5"
   },
   "devDependencies": {},
   "repository": {

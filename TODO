@@ -1,12 +1,10 @@
 TODO
 ====
 
-2. Multi-level menus.
 2. End a lesson, return to top level menu.
 2. color the mistakes.
 4. Calculate and display "Raw speed wpm" and "Adjusted speed (minus errors) wpm" and other stats.
 5. Calculate error rate and reject if error rate is too high.
-6. Real URLs/routing.
 8. ASCII art in the HTML.
 9. Make it look nice.
 9. Publish it.
