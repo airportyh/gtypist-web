@@ -1,4 +1,4 @@
-var GTypistWeb = require('./gtypist_web')
+var GTypistWeb = require('./src/gtypist_web')
 var barber = require('barber')
 
 window.onload = main

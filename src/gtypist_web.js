@@ -13,24 +13,24 @@ function GTypistWeb(){
   var currentView
   var view = { element: element }
 
-  function goto(path){
+  function goto(path, dontUpdateUrl){
     var url, m
     if (path === '/'){
       url = '/lessons/json/index.json'
-      updateUrl(path)
+      if (!dontUpdateUrl) updateUrl(path)
       ajax(url, function(index){
         swapView(MainMenu(index))
       })
     }else if (m = path.match(/^\/([a-z0-9]+)\.html$/)){
       url = '/lessons/json/' + m[1] + '.json'
-      updateUrl(path)
+      if (!dontUpdateUrl) updateUrl(path)
       ajax(url, function(lesson){
         swapView(SubMenu(lesson))
       })
     }else if (m = path.match(/^\/([a-z0-9]+)\/([0-9]+).html$/)){
       url = '/lessons/json/' + m[1] + '.json'
       var idx = Number(m[2])
-      updateUrl(path)
+      if (!dontUpdateUrl) updateUrl(path)
       ajax(url, function(lesson){
         swapView(LessonView(lesson.lessons[idx]))
       })
@@ -39,10 +39,15 @@ function GTypistWeb(){
     }
   }
 
+  E.on(window, 'popstate', function(e){
+    var path = e.state && e.state.path || '/'
+    goto(path, true)
+  })
+
   function updateUrl(path){
     if (location.pathname === path) return
     if (history.pushState){
-      history.pushState({}, '', path)
+      history.pushState({path: path}, '', path)
     }else{
       window.location = path
     }
