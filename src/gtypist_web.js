@@ -7,6 +7,8 @@ var SubMenu = require('./submenu')
 
 module.exports = GTypistWeb
 
+var supportsPushState = !!history.pushState
+
 function GTypistWeb(){
 
   var element = h('gtypist')
@@ -40,7 +42,7 @@ function GTypistWeb(){
   }
 
   E.on(window, 'popstate', function(e){
-    var path = e.state && e.state.path || '/'
+    var path = e.state && e.state.path || location.pathname
     goto(path, true)
   })
 
@@ -71,7 +73,9 @@ function GTypistWeb(){
   view.destroy = destroyCurrentView
 
   E.on(view, 'goto', goto)
-  E.emit(view, 'goto', location.pathname)
+  if (!supportsPushState){
+    goto(location.pathname, true)
+  }
 
   return view
 
