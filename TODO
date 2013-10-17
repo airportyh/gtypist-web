@@ -1,12 +1,11 @@
 TODO
 ====
 
-4. Calculate and display "Raw speed wpm" and "Adjusted speed (minus errors) wpm" and other stats.
-5. Calculate error rate and reject if error rate is too high.
-1. End a sublesson, continue to the next one.
+1. rate and error checking should be done at the exercise level, not sublesson level.
+
 2. End a lesson, return to top level menu.
-2. color the mistakes.
-8. ASCII art in the HTML.
-9. remember your last lesson and allow them to continue.
 9. Make it look nice.
+9. remember your last lesson and allow them to continue.
+
+8. ASCII art in the HTML.
 9. Publish it.

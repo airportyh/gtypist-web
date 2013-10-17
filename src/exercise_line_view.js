@@ -19,7 +19,7 @@ function ExerciseLineView(line){
     })
   )
 
-  isHidden(checkmark, !okToAdvance())
+  isHidden.set(checkmark, !okToAdvance())
 
   E.on(textarea, 'keydown', onKeyDown)
   E.on(textarea, 'keyup', onKeyUp)
@@ -31,7 +31,7 @@ function ExerciseLineView(line){
     }if (e.keyCode === 13 && okToAdvance()){
       e.preventDefault()
       textarea.disabled = true
-      E.emit(view, 'advance')
+      E.emit(view, 'advance', incorrectCount())
     }
   }
 
@@ -40,7 +40,48 @@ function ExerciseLineView(line){
   }
 
   function onKeyUp(e){
-    isHidden(checkmark, !okToAdvance())
+    isHidden.set(checkmark, !okToAdvance())
+    display.innerHTML = renderDisplay()
+  }
+
+  function renderDisplay(){
+    var markup = ''
+    var input = textarea.value
+    var len = Math.max(input.length, line.length)
+    for (var i = 0; i < len; i++){
+      var leftChar = line.charAt(i)
+      var rightChar = input.charAt(i)
+      if (leftChar === rightChar){
+        markup += '<span class=right>' + leftChar + '</span>'
+      }else if (rightChar === ''){
+        markup += leftChar
+      }else if (leftChar === ''){
+        markup += '<span class=wrong> </span>'
+      }else{
+        markup += '<span class=wrong>' + leftChar + '</span>'
+      }
+    }
+    return markup
+  }
+
+  function incorrectCount(){
+    var count = 0
+    var input = textarea.value
+    var len = Math.max(input.length, line.length)
+    for (var i = 0; i < len; i++){
+      var leftChar = line.charAt(i)
+      var rightChar = input.charAt(i)
+      if (leftChar === rightChar){
+        // nothing
+      }else if (rightChar === ''){
+        // nothing
+      }else if (leftChar === ''){
+        count++
+      }else{
+        count++
+      }
+    }
+    return count
   }
 
   function textMatches(){
@@ -91,3 +132,10 @@ styles.add('.exercise-line-view pre', {
   border: '1px solid white'
 })
 
+styles.add('.exercise-line-view pre .wrong', {
+  backgroundColor: 'red'
+})
+
+styles.add('.exercise-line-view pre .right', {
+  color: 'green'
+})

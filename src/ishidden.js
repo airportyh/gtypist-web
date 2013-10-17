@@ -1,11 +1,9 @@
-module.exports = function(elm, yes){
-  if (arguments.length === 1){
-    // getter
-    return elm.style.visibility === 'hidden'
-  }else{
-    // setter
-    elm.style.visibility = yes ?
-      'hidden' :
-      'visible'
-  }
+var isHidden = module.exports = function(elm){
+  return elm.style.visibility === 'hidden'
+}
+
+isHidden.set = function(elm, yes){
+  elm.style.visibility = yes ?
+    'hidden' :
+    'visible'
 }

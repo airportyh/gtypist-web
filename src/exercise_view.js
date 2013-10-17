@@ -9,12 +9,12 @@ function ExerciseView(exercise){
   var prompt = h('label', exercise.prompt)
   var element = h('div.exercise-view', prompt)
   var lineViews = []
+  var totalIncorrectCount = 0
   var currentLine = 0
   var view = {
     element: element,
     destroy: destroy,
-    focus: focus,
-    children: lineViews
+    focus: focus
   }
 
   for (var i = 0; i < exercise.lines.length; i++){
@@ -24,14 +24,15 @@ function ExerciseView(exercise){
     element.appendChild(lineView.element)
   }
 
-  function onAdvanceLine(){
+  function onAdvanceLine(incorrectCount){
+    totalIncorrectCount += incorrectCount
     currentLine++
     if (currentLine < lineViews.length){
       // advance line
       lineViews[currentLine].focus()
     }else{
       // exercise over
-      E.emit(view, 'advance')
+      E.emit(view, 'advance', totalIncorrectCount)
     }
   }
 

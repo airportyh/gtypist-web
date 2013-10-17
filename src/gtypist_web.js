@@ -4,10 +4,9 @@ var ajax = require('./ajax')
 var MainMenu = require('./main_menu')
 var LessonView = require('./lesson_view')
 var SubMenu = require('./submenu')
+var Router = require('66')
 
 module.exports = GTypistWeb
-
-var supportsPushState = !!history.pushState
 
 function GTypistWeb(){
 
@@ -15,45 +14,37 @@ function GTypistWeb(){
   var currentView
   var view = { element: element }
 
-  function goto(path, dontUpdateUrl){
-    var url, m
-    if (path === '/'){
-      url = '/lessons/json/index.json'
-      if (!dontUpdateUrl) updateUrl(path)
-      ajax(url, function(index){
-        swapView(MainMenu(index))
-      })
-    }else if (m = path.match(/^\/([a-z0-9]+)\.html$/)){
-      url = '/lessons/json/' + m[1] + '.json'
-      if (!dontUpdateUrl) updateUrl(path)
-      ajax(url, function(lesson){
-        swapView(SubMenu(lesson))
-      })
-    }else if (m = path.match(/^\/([a-z0-9]+)\/([0-9]+).html$/)){
-      url = '/lessons/json/' + m[1] + '.json'
-      var idx = Number(m[2])
-      if (!dontUpdateUrl) updateUrl(path)
-      ajax(url, function(lesson){
-        swapView(LessonView(lesson.lessons[idx]))
-      })
-    }else{
-      console.error('Unknown url pattern:', path)
-    }
-  }
+  var rt = new Router()
 
-  E.on(window, 'popstate', function(e){
-    var path = e.state && e.state.path || location.pathname
-    goto(path, true)
+  rt.get('/', function(){
+    url = '/lessons/json/index.json'
+    ajax(url, function(index){
+      swapView(MainMenu(index))
+    })
   })
 
-  function updateUrl(path){
-    if (location.pathname === path) return
-    if (history.pushState){
-      history.pushState({path: path}, '', path)
-    }else{
-      window.location = path
-    }
-  }
+  rt.get('/:lesson.html', function(params){
+    url = '/lessons/json/' + params.lesson + '.json'
+    ajax(url, function(lesson){
+      swapView(SubMenu(lesson))
+    })
+  })
+
+  rt.get('/:lesson/:sublesson.html', function(params){
+    url = '/lessons/json/' + params.lesson + '.json'
+    ajax(url, function(lesson){
+      var idx = Number(params.sublesson)
+      var subLesson = lesson.lessons[idx]
+      var nextLesson = lesson.lessons[idx + 1]
+      var nextLessonUrl = nextLesson ? 
+        '/' + params.lesson + '/' + (idx + 1) + '.html' :
+        null
+      var view = LessonView(subLesson, nextLessonUrl)
+      swapView(view)
+    })
+  })
+
+  rt.start()
 
   function swapView(newView){
     if (currentView){
@@ -72,9 +63,8 @@ function GTypistWeb(){
 
   view.destroy = destroyCurrentView
 
-  E.on(view, 'goto', goto)
-  if (!supportsPushState){
-    goto(location.pathname, true)
+  function goto(path){
+    rt.goto(path)
   }
 
   return view
