@@ -26,9 +26,10 @@ function ExerciseLineView(line){
 
   function onKeyDown(e){
      // no backspacing
+    console.log(e.keyCode)
     if (e.keyCode === 8){
       e.preventDefault()
-    }if (e.keyCode === 13 && okToAdvance()){
+    }if (e.keyCode === 13 || e.keyCode === 32 && okToAdvance()){
       e.preventDefault()
       textarea.disabled = true
       E.emit(view, 'advance', incorrectCount())
