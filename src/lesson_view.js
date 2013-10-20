@@ -1,15 +1,11 @@
 var h = require('hyperscript')
 var E = require('emmitt')
 var PageView = require('./page_view')
-var calculateSpeed = require('./calculate_speed')
-var SpeedDisplay = require('./speed_display')
-var charCount = require('./lesson_char_count')
 
 module.exports = LessonView
 function LessonView(lesson, nextLessonUrl){
   var exerciseView
   var element = h('div')
-  var startTime, stopTime
   var exerciseIdx = 0
   var totalIncorrectCount = 0
   displayExercise()
@@ -53,7 +49,6 @@ function LessonView(lesson, nextLessonUrl){
 
   function focus(){
     if (exerciseView.focus) exerciseView.focus()
-    startTime = + new Date
   }
 
   function destroy(){
@@ -67,28 +62,11 @@ function LessonView(lesson, nextLessonUrl){
   }
 
   E.on(view, 'finish', function(){
-    stopTime = + new Date
-    var duration = (stopTime - startTime) / 1000 / 60
-    var chars = charCount(lesson)
-    var speed = calculateSpeed(chars, duration, totalIncorrectCount)
-
-    var errorRate = 100 * totalIncorrectCount / chars
-    var display = SpeedDisplay(speed, errorRate)
-    view.element.appendChild(display.element)
-    var advanceOptions = AdvanceOptions(errorRate < 3 ? nextLessonUrl : null)
-    view.element.appendChild(advanceOptions.element)
-
-    E.on(advanceOptions, 'again', function(){
-      view.element.removeChild(display.element)
-      view.element.removeChild(advanceOptions.element)
-      exerciseIdx = 0
-      displayCurrentExercise()
+    var options = AdvanceOptions(nextLessonUrl)
+    view.element.appendChild(options.element)
+    E.on(options, 'goto', function(path){
+      E.emit(view, 'goto', path)
     })
-    
-    E.on(advanceOptions, 'next', function(){
-      E.emit(view, 'goto', nextLessonUrl)
-    })
-    
   })
 
   return view
@@ -98,17 +76,17 @@ function AdvanceOptions(nextLessonUrl){
 
   var view = {
     element: h('div',
-      h('button', 'Try Again', {onclick: tryAgain}),
-      nextLessonUrl ? h('button', 'Next Lesson', {onclick: nextLesson}) : null
+      nextLessonUrl ? h('button', 'Next Lesson', {onclick: nextLesson}) : null,
+      h('button', 'Main Menu', {onclick: mainMenu})
     )
   }
 
-  function tryAgain(){
-    E.emit(view, 'again')
+  function nextLesson(){
+    E.emit(view, 'goto', nextLessonUrl)
   }
 
-  function nextLesson(){
-    E.emit(view, 'next')
+  function mainMenu(){
+    E.emit(view, 'goto', '/')
   }
 
   return view

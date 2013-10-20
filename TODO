@@ -1,11 +1,15 @@
 TODO
 ====
 
-1. rate and error checking should be done at the exercise level, not sublesson level.
+1. should not have to hit enter at end of each line
+2. enter instead of hitting buttons to advance
+2. edittable mode (S:)
 
-2. End a lesson, return to top level menu.
 9. Make it look nice.
 9. remember your last lesson and allow them to continue.
 
 8. ASCII art in the HTML.
 9. Publish it.
+
+## Pains
+  having to manually propagate events up the hierarchy. Bubbling would be nice, either than or use global event bus.

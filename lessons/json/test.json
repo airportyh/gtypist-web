@@ -1,0 +1,33 @@
+{
+  "title": "Quick QWERTY",
+  "id": "q",
+  "type": "lesson",
+  "lessons": [
+    {
+      "type": "lesson",
+      "title": "Lesson Q1",
+      "pages": [
+        {
+          "type": "exercise",
+          "prompt": "(1) Try this:",
+          "lines": [
+            "asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj"
+          ]
+        }
+      ]
+    },
+    {
+      "type": "lesson",
+      "title": "Lesson Q2",
+      "pages": [
+        {
+          "type": "exercise",
+          "prompt": "(2) Try this:",
+          "lines": [
+            "asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj asdf ;lkj"
+          ]
+        }
+      ]
+    }
+  ]
+}

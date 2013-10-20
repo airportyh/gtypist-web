@@ -98,10 +98,17 @@ function ExerciseLineView(line){
     E.off(textarea, 'keyup', onKeyUp)
   }
 
+  function reset(){
+    textarea.value = ''
+    display.innerHTML = line
+    isHidden.set(checkmark, !okToAdvance())
+  }
+
   var view = {
     element: element,
     focus: focus,
-    destroy: destroy
+    destroy: destroy,
+    reset: reset
   }
 
   return view
