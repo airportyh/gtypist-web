@@ -3,11 +3,11 @@
   "version": "0.0.0",
   "description": "gtypist on the web!",
   "dependencies": {
-    "66": "0.0.0",
+    "66": "~0.0.0",
     "hyperscript": "~1.2.1",
     "emmitt": "~0.0.2",
     "async": "~0.2.9",
-    "barber": "0.0.6",
+    "barber": "~0.1.0",
     "mkdirp": "~0.3.5",
     "diff": "~1.0.7"
   },

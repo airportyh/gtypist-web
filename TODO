@@ -3,6 +3,8 @@ TODO
 
 2. enter instead of hitting buttons to advance
 2. edittable mode (S:)
+3. refactor the ugly advanceOptions UI code
+3. get rid of the generated files
 
 9. Make it look nice.
 9. remember your last lesson and allow them to continue.

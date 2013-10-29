@@ -115,35 +115,33 @@ function ExerciseLineView(line){
   return view
 }
 
-styles.add('.exercise-line-view .checkmark', {
-  color: 'green'
-})
-
-styles.add('.exercise-line-view .textarea, .exercise-line-view pre', {
-  fontFamily: 'monaco, monospace', 
-  fontSize: '1em',
-  width: '100%'
-})
-
-styles.add('.exercise-line-view .textarea', {
-  background: 'yellow',
-  border: '0px none'
-})
-
-styles.add('.exercise-line-view .textarea:disabled', {
-  background: 'gray'
-})
-
-styles.add('.exercise-line-view pre', {
-  display: 'inline',
-  margin: '0px',
-  border: '1px solid white'
-})
-
-styles.add('.exercise-line-view pre .wrong', {
-  backgroundColor: 'red'
-})
-
-styles.add('.exercise-line-view pre .right', {
-  color: 'green'
+styles.add({
+  '.exercise-line-view': {
+    '.checkmark': {
+      color: 'green'
+    },
+    '.textarea, pre': {
+      fontFamily: 'monaco, monospace', 
+      fontSize: '1em',
+      width: '100%'
+    },
+    '.textarea': {
+      background: 'yellow',
+      border: '0px none'
+    },
+    '.textarea:disabled': {
+      backgroundColor: 'gray'
+    },
+    'pre': {
+      display: 'inline',
+      margin: '0px',
+      border: '1px solid white',
+      '.wrong': {
+        backgroundColor: 'red'
+      },
+      '.right': {
+        backgroundColor: 'green'
+      }
+    }
+  }
 })

@@ -104,6 +104,8 @@ function AdvanceOptions(allowNext){
   return view
 }
 
-styles.add('.exercise-view label', {
-  fontSize: '1.2em'
+styles.add({
+  '.exercise-view label': {
+    fontSize: '1.2em'
+  }
 })
